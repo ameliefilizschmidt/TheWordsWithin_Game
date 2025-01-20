@@ -1,0 +1,201 @@
+title: MutterStartttt
+tags: 
+colorID: 0
+position: -56,28
+---
+<<if not $visitedMum>>
+<<setMum Speaker>>
+Mutter: Hallo?
+<<setMain Speaker>>
+-> Hallo
+    <<setMum Speaker>>
+    Mutter: Wer bist du? Was willst du hier in meinem Haus?
+    <<setMain Speaker>>
+    Die Mutter wirkt ängstlich.
+
+-> Ich brauche Hilfe
+    <<setMum Speaker>>
+    Mutter: Ich kenne dich nicht, wieso bist du hier?
+    <<setMain Speaker>>
+    Die Mutter scheint verwirrt zu sein.
+
+<<setMain Speaker>>
+Spieler: Ich suche Almina. Sie ist verschwunden!
+
+<<setMum Speaker>>
+Die Mutter reißt die Augen auf.
+Mutter: Verschwunden?
+<<setMain Speaker>>
+Die Stimme der Mutter klingt zittrig.
+
+<<setMain Speaker>>
+Spieler: Ich glaube ich habe gesehen, wie jemand sie entführt hat.
+
+<<setMum Speaker>>
+Die Mutter bricht zusammen.
+
+<<setMain Speaker>>
+-> Der Mutter helfen
+    <<setMum Speaker>>
+    Mutter: DU LÜGST DOCH! DAS KANN NICHT STIMMEN!
+    
+    <<setMain Speaker>>
+    Spieler: Ich sah ihn vor mir, wie er sie packte. Eine ganz dunkle Gestalt. Ich glaube ich hörte sie schreien!
+
+    <<setMum Speaker>>
+    Mutter: Ich glaube mir wird schwindelig.
+
+    <<setMain Speaker>>
+    Spieler: Ihre Augen schrien förmlich nach Hilfe! Sie sah so ängstlich und verloren aus.
+
+    
+    <<setMain Speaker>>
+    Die Mutter spricht leise zu sich selbst.
+    <<setMum Speaker>>
+    Mutter: Das kann nicht sein.. Meine liebe Almina.. Ich wusste da stimmt irgendwas nicht.. 
+    Sie kam mir die ganze Zeit schon so komisch vor.. Vielleicht hat er was damit zu tun?
+    [[SprechblasenFightMutter]]
+-> Die Mutter liegen lassen
+    <<addSlider PowerSlider 20>>
+    <<setMain Speaker>>
+    Die Mutter kauert sich zusammen. Man hört ein Schluchzen.
+    ...
+    ...
+    Vielleicht hilft ein kurzer Spaziergang, um meine Gedanken zu ordnen...
+    <<setSpawn Player Spawn2>>
+    <<save Savefile $warpToWayPolice true>>
+
+<<save Savefile $visitedMum true>>
+<<set $visitedMum to true>>
+<<else>>
+<<setMum Speaker>>
+Mutter: *Schluchz*
+<<endif>>
+===
+title: SprechblasenFightMutter
+tags: 
+colorID: 0
+position: -426,251
+---
+<<setSpawn Player Spawn2>>
+<<startFight FightHandler HausDerMutterInnen GewonnenMutter GewonnenMutter MutterTopText>>
+===
+title: GewonnenMutter
+tags: 
+colorID: 0
+position: -440,547
+---
+<<setMain Speaker>>
+->  Almina hängt nicht von dir ab. 
+    Sie kommt auch ohne dich klar. Sie braucht nur mich, der sie rettet, da du ja scheinbar zu schwach bist.
+    <<setMum Speaker>>
+    Mutter: Ich.. kann nicht ... mehr. Ohne Almina hat das alles keinen Sinn mehr.
+    <<setMain Speaker>>
+    Die Mutter scheint traurig zu sein.
+    Spieler: Ich werde alles geben sie zu finden, da du das ja nicht schaffst.
+    Die Mutter verschwindet in einem Nebenraum.
+    <<addSlider PowerSlider 20>>
+    <<SET Mutter dead>>
+
+-> Du bist doch total verwirrt.
+    Bevor du versuchst Almina zu helfen, musst du erstmal selber klar kommen. Du bist eine Gefahr für dein Umfeld. 
+    <<SET Font unclear>>
+    <<setMum Speaker>>
+    Die Mutter nuschelt in sich hinein: Das macht alles keinen Sinn. Wieso passiert sowas? 
+    Ist das wieder in meinem Kopf? Die Stimmen werden wieder so laut...
+    <<SET Font normal>>
+    <<setMain Speaker>>
+    Die Mutter scheint verrückt. Ich sollte lieber gehen.
+
+Du verlässt das Haus.
+
+<<save Savefile $warpToPolice true>>
+
+<<setSpawn Player Spawn2>>
+<<SwitchScene SceneSwitcher HausDerMutter>>
+===
+title: enterMomHouse
+tags: 
+colorID: 0
+position: -630,-232
+---
+<<if not $visitedMum>>
+<<setMain Speaker>>
+Aha! Hier wohnt sicherlich Alminas Mutter!
+-> Klingeln
+    <<setMum Speaker>>
+    Mutter: Wie? Was?
+    -> Erneut Klingeln
+        <<setMum Speaker>>
+        Mutter: Huch! 
+        <<setMum Speaker>>
+        Mutter: Was war das?
+        -> Nochmal Klingeln
+            <<setMum Speaker>>
+            Mutter: Oh! Die Klingel! Komm doch rein!
+        -> Haus betreten
+    -> Haus betreten
+-> Haus betreten
+
+[[HausMomBetreten]]
+
+<<else>>
+<<setMain Speaker>>
+Ich sollte die Mutter nicht weiter stören.
+<<endif>>
+===
+title: HausMomBetreten
+tags: 
+colorID: 0
+position: -778,71
+---
+<<setMain Speaker>>
+Du betrittst das Haus.
+<<SwitchScene Haus HausDerMutterInnen>>
+===
+title: WarpAfterMom
+tags: 
+colorID: 0
+position: -23,555
+---
+<<if $warpToWayPolice>>
+
+<<SwitchScene WarpToPolice Weg_mit_Polizist>>
+
+<<elseif $warpToPolice>>
+
+<<SwitchScene WarpToPolice transition_police>>
+
+<<else>>
+
+<<moveY Player 20>>
+Du bist dir sicher, dass das gerade nicht der richtige Weg ist.
+
+
+<<endif>>
+===
+title: LeaveMom
+tags: 
+colorID: 0
+position: 315,306
+---
+<<if not $visitedMum>>
+<<moveY Player 20>>
+<<setMain Speaker>>
+Da ist Alimnas Mutter! Ich sollte sie ansprechen. 
+
+
+
+<<else>>
+<<setMain Speaker>>
+Du hast das Gefühl, dass dich Alminas Mutter nicht erneut hereinlässt.
+Möchtest Du das Haus trotzdem verlassen?
+-> Ja, ich muss Almina suchen!
+    <<SwitchScene SceneSwitcher HausDerMutter>>
+    Mutter: *Schluchz*
+    
+-> Nein, ich möchte mich weiter umsehen.    
+    <<moveY Player 20>>
+    Vielleicht findest du noch etwas hilfreiches?
+<<endif>>
+===

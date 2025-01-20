@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 71c8a2bbd18c0a748ac5ba7d56961294
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Necklace-Necklace-0
+  - Necklace-Necklace-1
+  - Necklace-Necklace-2
+  - Necklace-Necklace-3
+  - Necklace-Necklace-4
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

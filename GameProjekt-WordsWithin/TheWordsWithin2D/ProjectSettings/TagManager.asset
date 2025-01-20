@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Friendly
+  - Hostile
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: underGround
+    uniqueID: 565369277
+    locked: 0
+  - name: Ground
+    uniqueID: 1384847229
+    locked: 0
+  - name: schattenplayer
+    uniqueID: 633439477
+    locked: 0
+  - name: Items (legacy) - dont use
+    uniqueID: 1999456011
+    locked: 0
+  - name: Always under player
+    uniqueID: 387885297
+    locked: 0
+  - name: SzeneObjects
+    uniqueID: 4146112531
+    locked: 0
+  - name: Particles
+    uniqueID: 3915718579
+    locked: 0
+  - name: Always above player
+    uniqueID: 2642389813
+    locked: 0

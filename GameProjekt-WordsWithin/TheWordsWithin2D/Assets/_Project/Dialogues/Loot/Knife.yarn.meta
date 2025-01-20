@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: f94088670f2a69f41817a1a5f2474396
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: de-DE
+  stringIDs:
+  - Knife-Knife-0
+  - Knife-Knife-1
+  - Knife-Knife-2
+  - Knife-Knife-3
+  - Knife-Knife-4
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: f94088670f2a69f41817a1a5f2474396, type: 3}
+  localizations: []

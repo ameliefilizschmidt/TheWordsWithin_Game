@@ -1,0 +1,17 @@
+title: Tutorial
+tags: 
+colorID: 0
+position: -294,67
+---
+<<if not $tut>>
+
+<<setEmpty Speaker>>
+Laufen kannst du mit W,A,S,D.
+
+Interagieren kannst du mit E.
+
+Sprechblasen innerhalb eines Kampfes kannst du mit Mausklicken schießen.
+
+<<set $tut to true>>
+<<endif>>
+===

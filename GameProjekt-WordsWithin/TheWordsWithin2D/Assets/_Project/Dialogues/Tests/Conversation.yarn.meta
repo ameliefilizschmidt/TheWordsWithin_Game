@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 8266ad04abf024440a2a1198b7f6d97c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: de-DE
+  stringIDs:
+  - Conversation-Start-0
+  - Conversation-Start-1
+  - Conversation-Start-2
+  - Conversation-Start-3
+  - Conversation-Start-4
+  - Conversation-Start-5
+  - Conversation-Start-6
+  - Conversation-Start-7
+  - Conversation-Start-8
+  - Conversation-Start-9
+  - Conversation-Start-10
+  - Conversation-Zoo-11
+  - Conversation-Nachbarin-12
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 8266ad04abf024440a2a1198b7f6d97c, type: 3}
+  localizations: []

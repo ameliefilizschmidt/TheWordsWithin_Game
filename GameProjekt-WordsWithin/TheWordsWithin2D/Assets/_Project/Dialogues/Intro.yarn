@@ -1,0 +1,37 @@
+title: Intro
+tags: 
+colorID: 0
+position: -323,185
+---
+<<setSlider PowerSlider 1>>
+
+<<setActive Control 1>>
+<<setGirl Speaker>>
+Almina: Hey, du siehst irgendwie so traurig aus...
+Almina: Hier, nimm meine Rose.
+<<setMain Speaker>>
+Spieler: Danke...
+
+<<setActive Control 2>>
+<<setBF Speaker>>
+Fremder: ...
+Fremder: Komm sofort mit.
+
+<<setActive Control 3>>
+
+<<setMain Speaker>>
+Spieler: Almina! Warte!
+Spieler: Lass sie in Ruhe!!
+
+<<setActive Control 4>>
+<<setMain Speaker>>
+Spieler: Was soll das?
+
+<<setActive Control 5>>
+<<setMain Speaker>>
+Spieler: Ich muss sie wiederfinden...
+Spieler: Wieso hat er sie einfach mitgenommen?
+Spieler: Dieser Elendige... Ich muss sie retten...
+
+<<SwitchScene Control Tutorial>>
+===

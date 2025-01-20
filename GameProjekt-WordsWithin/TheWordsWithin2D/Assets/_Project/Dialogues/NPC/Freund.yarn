@@ -1,0 +1,94 @@
+title: Freund
+tags: 
+colorID: 0
+position: -472,100
+---
+<<setMain Speaker>>
+Da ist ein alter Freund! Vielleicht kann er dir helfen?
+<<setMain Speaker>>
+-> Lange nicht gesehen!
+    Vielleicht kannst du mir weiterhelfen?
+-> Machst du gerade Sport?
+    <<setFriend Speaker>>
+    Freund: Wonach sieht das hier denn aus?
+-> Wie läuft dein Training?
+    <<setFriend Speaker>>
+    Freund: Ist anstrengend!
+
+<<setFriend Speaker>>
+Freund: Uff..
+Freund: ... Uff
+Freund: ...
+Freund hört auf, Sport zu machen.
+<<stopFreund Freund>>
+Freund: Hey, was machst du denn hier? Wobei kann ich dir weiterhelfen?
+
+<<setMain Speaker>>
+Spieler: Du kennst doch Almina, oder nicht?
+
+<<setFriend Speaker>>
+Freund: Ja klar! Ich habe sie allerdings schon lange nicht mehr gesehen.
+Freund: Warum fragst du?
+
+<<setMain Speaker>>
+Spieler: Genau das ist das Problem! Ich bin mir sicher, dass sie entführt wurde.
+
+<<setFriend Speaker>>
+Freund: ENTFÜHRT?
+<<setMain Speaker>>
+Er scheint skeptisch zu wirken.
+<<setFriend Speaker>>
+Freund: Bist du dir ganz sicher?
+
+<<setMain Speaker>>
+-> Ja! Ich habe beobachtet...
+    ..wie sie mit einer schwarzen Gestalt verschwunden ist.
+-> Ja ich bin mir sicher!
+
+<<setFriend Speaker>>
+Freund: ...
+Freund: Das klingt echt ernst, hast du schon mit ihrer Mutter gesprochen?
+Freund: Nehm dich aber in Acht, die Mutter ist irgendwie .. ein wenig ...
+Freund: Komisch?
+
+<<setMain Speaker>>
+Spieler: Ich habe leider keine Ahnung wo die Mutter sein könnte.
+-> Weißt du vielleicht wo sie wohnt?
+-> Kannst du mir den Weg zeigen?
+
+<<setFriend Speaker>>
+Freund: Sie wohnt in einem Haus am See. Da gibt es doch bestimmt einen Wegweiser, der dir helfen könnte.
+
+<<setMain Speaker>>
+-> Du bist ein Genie! 
+-> Danke für deine Hilfe.
+
+<<setFriend Speaker>>
+Freund: Viel Erfolg, ich hoffe du kannst Almina finden.
+
+<<save Savefile $friendVisited true>>
+===
+title: WegweiserMom
+tags: 
+colorID: 0
+position: -119,135
+---
+Hier geht es Richtung See.
+===
+title: LeavePark
+tags: 
+colorID: 0
+position: -277,350
+---
+<<if $friendVisited>>
+
+<<SwitchScene SceneSwitch transition_mom>>
+
+<<else>>
+
+<<moveY Player -20>>
+Du musst zuerst mit deinem Freund sprechen!
+
+
+<<endif>>
+===

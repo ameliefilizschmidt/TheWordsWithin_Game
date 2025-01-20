@@ -1,0 +1,49 @@
+title: NPC1
+tags: 
+colorID: 0
+position: 20,64
+---
+<<setEmpty Speaker>>
+Mann: Ich hätte gerne ein Bier
+<<setMain Speaker>>
+-> Bier ausgeben
+    <<setEmpty Speaker>>
+	Mann: Wow! Vielen Dank!
+-> Nichts tun
+    <<setEmpty Speaker>>
+	Mann: Ich hätte WIRKLICH gerne ein Bier!
+===
+title: NPC2
+tags: 
+colorID: 0
+position: 278,73
+---
+<<setEmpty Speaker>>
+Mann: Ich mag diese Bar.
+===
+title: NPC3
+tags: 
+colorID: 0
+position: 530,68
+---
+<<setMain Speaker>>
+Spieler:
+<<setEmpty Speaker>>
+Mann:
+<<setMain Speaker>>
+Spieler:
+<<setEmpty Speaker>>
+Mann: Kann ich dir irgendwie helfen?
+<<setMain Speaker>>
+Spieler:
+<<setEmpty Speaker>>
+Mann:
+<<setMain Speaker>>
+-> Gehen
+    <<setEmpty Speaker>>
+	Mann: Ciao! Danke für das tolle Gespräch!
+-> Weiter gucken
+    <<setEmpty Speaker>>
+	Mann: Man was ist falsch bei dir?
+	Spieler:
+===

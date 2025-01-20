@@ -1,0 +1,130 @@
+title: Trash
+tags: 
+colorID: 0
+position: -1022,-293
+---
+<<setMain Speaker>>
+Der Müll scheint sehr voll zu sein...
+===
+title: Untidy
+tags: 
+colorID: 0
+position: -803,-297
+---
+<<setMain Speaker>>
+Ganz schön unordentlich.
+===
+title: Inside
+tags: 
+colorID: 0
+position: -561,-289
+---
+<<setMain Speaker>>
+Was da wohl drin ist?
+===
+title: Defect
+tags: 
+colorID: 0
+position: -1036,43
+---
+<<setMain Speaker>>
+Der Automat scheint kaputt zu sein.
+===
+title: Billiard
+tags: 
+colorID: 0
+position: -812,31
+---
+<<setMain Speaker>>
+Ich habe schon lange kein Billiard mehr gespielt...
+===
+title: leftBeer
+tags: 
+colorID: 0
+position: -586,31
+---
+<<setMain Speaker>>
+Hier hat wohl wer sein Bier vergessen...
+===
+title: PrisonLuck
+tags: 
+colorID: 0
+position: -1043,300
+---
+<<setMain Speaker>>
+Zum Glück bin ich da nicht drin..
+===
+title: Password
+tags: 
+colorID: 0
+position: -801,298
+---
+<<setMain Speaker>>
+Wenn ich nur das Passwort wüsste...
+===
+title: Searching
+tags: 
+colorID: 0
+position: -565,294
+---
+<<setMain Speaker>>
+GESUCHT: Großer Mann, ca. 1,80m groß; dunkle Haare, Vandalismus im Park...
+===
+title: PrisonNPC
+tags: 
+colorID: 0
+position: -321,282
+---
+<<setEmpty Speaker>>
+Mann: Hoffentlich werde ich nicht eingesperrt...
+
+Mann hinter Gittern:Ich bin unschuldig! Lasst mich  raus!
+===
+title: Unidy2
+tags: 
+colorID: 0
+position: -1020,650
+---
+<<setMain Speaker>>
+Hier scheint lange niemand mehr aufgeräumt zu haben.
+===
+title: Unidy3
+tags: 
+colorID: 0
+position: -730,642
+---
+<<setMain Speaker>>
+Wem das wohl alles gehört?
+===
+title: Unidy4
+tags: 
+colorID: 0
+position: -506,591
+---
+<<setMain Speaker>>
+Ein unheimlicher Ort...
+===
+title: Lake
+tags: 
+colorID: 0
+position: -1047,949
+---
+<<setMain Speaker>>
+Plötzlich wirkt alles so friedlich...
+===
+title: Bench
+tags: 
+colorID: 0
+position: -746,943
+---
+<<setMain Speaker>>
+Ich habe keine Zeit um mich auszuruhen!
+===
+title: Crate
+tags: 
+colorID: 0
+position: -483,936
+---
+<<setMain Speaker>>
+Was da wohl drin ist?
+===

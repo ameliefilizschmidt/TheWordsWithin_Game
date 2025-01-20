@@ -1,0 +1,35 @@
+title: Start
+tags: 
+colorID: 1
+position: 860,383
+---
+Spieler: Hii
+NPC: Moin
+Spieler: Wie gehts?
+NPC: Gut und selbst?
+
+-> Auch gut, danke.
+    NPC: Das ist schön!
+-> Nicht so gut :c
+    NPC: Schade!
+
+NPC: Wohin möchtest du als nächstes reisen?
+-> Zu meiner Nachbarin
+    [[Nachbarin]]
+-> In den Zoo! ;)
+    [[Zoo]]
+===
+title: Zoo
+tags: 
+colorID: 0
+position: 1238,595
+---
+Kasse: Herzlich willkommen! Möchten Sie eine Eintrittskarte kaufen?
+===
+title: Nachbarin
+tags: 
+colorID: 0
+position: 1239,252
+---
+Nachbarin: Hii! Möchtest du ein Stück Kuchen?
+===

@@ -1,0 +1,93 @@
+fileFormatVersion: 2
+guid: c2c3782256d239d4ea0c28288bc35ac3
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Police-VermisstenAnzeige-0
+  - Police-VermisstenAnzeige-1
+  - Police-VermisstenAnzeige-2
+  - Police-VermisstenAnzeige-3
+  - Police-VermisstenAnzeige-4
+  - Police-VermisstenAnzeige-5
+  - Police-VermisstenAnzeige-6
+  - Police-VermisstenAnzeige-7
+  - Police-VermisstenAnzeige-8
+  - Police-VermisstenAnzeige-9
+  - Police-VermisstenAnzeige-10
+  - Police-VermisstenAnzeige-11
+  - Police-VermisstenAnzeige-12
+  - Police-VermisstenAnzeige-13
+  - Police-VermisstenAnzeige-14
+  - Police-VermisstenAnzeige-15
+  - Police-VermisstenAnzeige-16
+  - Police-VermisstenAnzeige-17
+  - Police-VermisstenAnzeige-18
+  - Police-VermisstenAnzeige-19
+  - Police-VermisstenAnzeige-20
+  - Police-VermisstenAnzeige-21
+  - Police-VermisstenAnzeige-22
+  - Police-VermisstenAnzeige-23
+  - Police-VermisstenAnzeige-24
+  - Police-VermisstenAnzeige-25
+  - Police-VermisstenAnzeige-26
+  - Police-VermisstenAnzeige-27
+  - Police-VermisstenAnzeige-28
+  - Police-VermisstenAnzeige-29
+  - Police-VermisstenAnzeige-30
+  - Police-VermisstenAnzeige-31
+  - Police-VermisstenAnzeige-32
+  - Police-VermisstenAnzeige-33
+  - Police-VermisstenAnzeige-34
+  - Police-VermisstenAnzeige-35
+  - Police-VermisstenAnzeige-36
+  - Police-VermisstenAnzeige-37
+  - Police-VermisstenAnzeige-38
+  - Police-VermisstenAnzeige-39
+  - Police-VermisstenAnzeige-40
+  - Police-VermisstenAnzeige-41
+  - Police-Node-42
+  - Police-VermisstenAnzeigeOhneFestnahme-43
+  - Police-VermisstenAnzeigeOhneFestnahme-44
+  - Police-VermisstenAnzeigeOhneFestnahme-45
+  - Police-VermisstenAnzeigeOhneFestnahme-46
+  - Police-VermisstenAnzeigeOhneFestnahme-47
+  - Police-VermisstenAnzeigeOhneFestnahme-48
+  - Police-VermisstenAnzeigeOhneFestnahme-49
+  - Police-VermisstenAnzeigeOhneFestnahme-50
+  - Police-VermisstenAnzeigeOhneFestnahme-51
+  - Police-VermisstenAnzeigeOhneFestnahme-52
+  - Police-VermisstenAnzeigeOhneFestnahme-53
+  - Police-VermisstenAnzeigeOhneFestnahme-54
+  - Police-VermisstenAnzeigeOhneFestnahme-55
+  - Police-VermisstenAnzeigeOhneFestnahme-56
+  - Police-VermisstenAnzeigeOhneFestnahme-57
+  - Police-VermisstenAnzeigeOhneFestnahme-58
+  - Police-VermisstenAnzeigeOhneFestnahme-59
+  - Police-VermisstenAnzeigeOhneFestnahme-60
+  - Police-VermisstenAnzeigeOhneFestnahme-61
+  - Police-VermisstenAnzeigeOhneFestnahme-62
+  - Police-VermisstenAnzeigeOhneFestnahme-63
+  - Police-VermisstenAnzeigeOhneFestnahme-64
+  - Police-VermisstenAnzeigeOhneFestnahme-65
+  - Police-VermisstenAnzeigeOhneFestnahme-66
+  - Police-VermisstenAnzeigeOhneFestnahme-67
+  - Police-VermisstenAnzeigeOhneFestnahme-68
+  - Police-VermisstenAnzeigeOhneFestnahme-69
+  - Police-VermisstenAnzeigeOhneFestnahme-70
+  - Police-VermisstenAnzeigeOhneFestnahme-71
+  - Police-VermisstenAnzeigeOhneFestnahme-72
+  - Police-SprechblasenFightPolice-73
+  - Police-PoliceGewonnen-74
+  - Police-PoliceVerloren-75
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

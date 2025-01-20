@@ -1,0 +1,16 @@
+title: Knife
+tags: 
+colorID: 0
+position: 1188,543
+---
+<<setMain Speaker>>
+Dort liegt ein Küchenmesser. Es gehört deinem Nachbarn. Möchtest du es nehmen?
+-> Ja
+    <<addSlider PowerSlider 20>>
+    Du besitzt jetzt ein Küchenmesser. Hoffentlich merkt dein Nachbar das nicht.
+    <<pickupObject KnifeObject Knife destroy>>
+    <<save Savefile $knife_collected true>>
+    
+-> Nein
+    Du entscheidest dich, das Küchenmesser liegen zu lassen. Deine Freundschaft zu deinem Nachbarn ist dir wichtiger.
+===

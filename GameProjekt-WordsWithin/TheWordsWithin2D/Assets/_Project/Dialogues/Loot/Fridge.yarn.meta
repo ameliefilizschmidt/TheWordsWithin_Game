@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: 0f2e60ae93a2fc34e9674936876259f8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: de-DE
+  stringIDs:
+  - Fridge-Fridge-0
+  - Fridge-Fridge-1
+  - Fridge-Fridge-2
+  - Fridge-Fridge-3
+  - Fridge-Fridge-4
+  - Fridge-Fridge-5
+  - Fridge-Fridge-6
+  - Fridge-Fridge-7
+  - Fridge-Fridge-8
+  - Fridge-Fridge-9
+  - Fridge-Fridge-10
+  - Fridge-Fridge-11
+  - Fridge-Fridge-12
+  - Fridge-Fridge-13
+  - Fridge-Fridge-14
+  - Fridge-Fridge-15
+  - Fridge-Fridge-16
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 0f2e60ae93a2fc34e9674936876259f8, type: 3}
+  localizations: []

@@ -1,0 +1,30 @@
+title: EnterNeighbour
+tags: 
+colorID: 0
+position: 1131,536
+---
+<<if not $visitedNeighbourCompletly>>
+<<setMain Speaker>>
+Hier wohnt dein Nachbar.
+-> Weiter umsehen
+    <<setMain Speaker>>
+    Du hast eigentlich schon alles gesehen, möchtest aber gerne weiter durch die Gegend laufen.
+-> Erstmal klingeln
+    <<setNeighbour Speaker>>
+    Nachbar: Hallo, komm' doch rein!
+    <<SwitchScene Haus Neighbour>>
+-> Haus betreten
+    <<addSlider PowerSlider 30>>
+    <<setMain Speaker>>
+    Du betrittst das Haus. Das wird deinem Nachbarn nicht gefallen..
+    <<SwitchScene Haus Neighbour>>
+
+
+<<else>>
+<<setMain Speaker>>
+Hier wohnt dein Nachbar.
+-> Klingeln
+    <<setNeighbour Speaker>>
+    Nachbar: Lass mich in Ruhe!
+<<endif>>
+===

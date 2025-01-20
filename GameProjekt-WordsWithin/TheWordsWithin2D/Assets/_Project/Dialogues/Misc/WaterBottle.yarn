@@ -1,0 +1,41 @@
+title: WaterBottle
+tags: 
+colorID: 0
+position: -403,40
+---
+<<setMain Speaker>>
+Möchtest du den Wasserkrug mitnehmen?
+-> Ja
+    <<setMain Speaker>>
+    Du besitzt jetzt einen gefüllten Wasserkrug.
+    <<set $water_collected to true>>
+    <<set $waterbottle_collected to true>>
+    <<pickupObject karaffe karaffe destroy>>
+-> Nein
+    <<setMain Speaker>>
+    Vielleicht fällt dir später ein Verwendungszweck für den Wasserkrug ein.
+===
+title: Waschbecken
+tags: 
+colorID: 0
+position: -623,44
+---
+<<setMain Speaker>>
+Oh! Da ist ein Wasserhahn.
+<<if not $water_collected>>
+<<if $waterbottle_collected>>
+<<set $water_collected to true>>
+<<setMain Speaker>>
+Du hast den Krug mit Wasser aufgefüllt. Eine fabelhafte Idee!
+<<endif>>
+<<endif>>
+===
+title: Probieren
+tags: 
+colorID: 0
+position: -848,45
+---
+<<setMain Speaker>>
+Du probierst ein Stück Gemüse. Es schmeckt gesund.
+<<addSlider PowerSlider 1>>
+===

@@ -1,0 +1,450 @@
+title: 1
+tags: 
+colorID: 0
+position: -1011,-770
+---
+<<setMain Speaker>>
+Spieler: Geh mir aus dem Weg!
+<<setSpawn Player spawn6>>
+<<startFight FightHandler Labyrinth_gruen leer leer NPC>>
+===
+title: 2
+tags: 
+colorID: 0
+position: -720,-815
+---
+<<setMain Speaker>>
+Spieler: Ich habe es eilig, was stehst du hier so rum?
+<<setSpawn Player spawn14>>
+<<startFight FightHandler Labyrinth_gruen leer leer NPC>>
+===
+title: 3
+tags: 
+colorID: 0
+position: -456,-812
+---
+<<setMain Speaker>>
+Spieler:Wenn du mir nicht gleich aus dem Weg gehst, haben wir ein großes Problem.
+<<setSpawn Player spawn2>>
+<<startFight FightHandler Labyrinth_gruen leer leer NPC>>
+===
+title: 4
+tags: 
+colorID: 0
+position: -215,-807
+---
+<<setMain Speaker>>
+Spieler: Menschen wie du sind der Grund, warum ich die Menschliche Existenz hinterfrage.
+<<setSpawn Player spawn3>>
+<<startFight FightHandler Labyrinth_gruen leer leer NPC>>
+===
+title: 5
+tags: 
+colorID: 0
+position: 45,-733
+---
+<<setMain Speaker>>
+Spieler: Weg da!
+<<setSpawn Player spawn4>>
+<<startFight FightHandler Labyrinth_gruen leer leer NPC>>
+===
+title: 6
+tags: 
+colorID: 0
+position: 320,-633
+---
+<<setEmpty Speaker>>
+Mann: Nicht so frech!
+<<setMain Speaker>>
+Spieler: Du hast mir gar nichts zu sagen!
+<<setSpawn Player spawn5>>
+<<startFight FightHandler Labyrinth_gruen leer leer NPC>>
+===
+title: 7
+tags: 
+colorID: 0
+position: -1025,-531
+---
+<<setEmpty Speaker>>
+Frau: Was stimmt nicht mit dir?
+<<setMain Speaker>>
+Spieler: Gegenfrage: Was stimmt nicht mit DIR?
+<<setSpawn Player spawn1>>
+<<startFight FightHandler Labyrinth_gruen leer leer NPC>>
+===
+title: 8
+tags: 
+colorID: 0
+position: -769,-523
+---
+<<setPolice Speaker>>
+Polizist: Entschuldigung, das kann ich nicht dulden!
+<<setMain Speaker>>
+Spieler: Ach ja? Und was willst du dagegen tun?
+<<setSpawn Player spawn12>>
+<<startFight FightHandler Labyrinth_gruen leer leer NPC>>
+===
+title: 9
+tags: 
+colorID: 0
+position: -519,-525
+---
+<<setPolice Speaker>>
+Polizistin: Ich brauche Verstärkung!
+<<setMain Speaker>>
+Spieler: Die werden nicht mehr rechtzeitig kommen...
+<<setSpawn Player spawn7>>
+<<startFight FightHandler Labyrinth_gruen leer leer NPC>>
+===
+title: 10
+tags: 
+colorID: 0
+position: -249,-523
+---
+<<setMain Speaker>>
+Spieler: Wenn  ich so aussehen würde wie du, würde ich hier auch nur rumgammeln!
+<<setSpawn Player spawn8>>
+<<startFight FightHandler Labyrinth_gruen leer leer NPC>>
+===
+title: 11
+tags: 
+colorID: 0
+position: 24,-488
+---
+<<setMain Speaker>>
+Spieler: Geistig eingeschränkt?
+<<setSpawn Player spawn13>>
+<<startFight FightHandler Labyrinth_gruen leer leer NPC>>
+===
+title: 12
+tags: 
+colorID: 0
+position: -1096,-287
+---
+<<setMain Speaker>>
+Spieler: Deine ignoranz riecht bis hier!
+<<setSpawn Player spawn6>>
+<<startFight FightHandler Labyrinth_gruen leer leer NPC>>
+===
+title: 13
+tags: 
+colorID: 0
+position: -858,-272
+---
+<<setMain Speaker>>
+Spieler: Deine Dummheit nimmt die ganze Straße ein.
+<<setSpawn Player spawn11>>
+<<startFight FightHandler Labyrinth_gruen leer leer NPC>>
+===
+title: 14
+tags: 
+colorID: 0
+position: -614,-281
+---
+<<setMain Speaker>>
+Spieler: Wenn ich morgens aufstehen und dein Gesicht im Spiegel sehen würde, würde ich mich auch fragen, warum ich existiere.
+<<setSpawn Player spawn10>>
+<<startFight FightHandler Labyrinth_gruen leer leer NPC>>
+===
+title: r1
+tags: 
+colorID: 0
+position: -1131,149
+---
+<<setEmpty Speaker>>
+Mann: Ist alles in Ordnung bei Ihnen?
+===
+title: r2
+tags: 
+colorID: 0
+position: -904,162
+---
+<<setEmpty Speaker>>
+Mann: Sie sehen nicht gut aus.
+<<setMain Speaker>>
+Spieler: Lass mich in Ruhe.
+===
+title: r3
+tags: 
+colorID: 0
+position: -690,158
+---
+<<setEmpty Speaker>>
+Frau: Brauchen Sie hilfe?
+<<setMain Speaker>>
+Spieler: Lassen Sie mich in Ruhe.
+===
+title: r4
+tags: 
+colorID: 0
+position: -498,171
+---
+<<setEmpty Speaker>>
+Mann: Gehen Sie bloß weiter...
+===
+title: r5
+tags: 
+colorID: 0
+position: -274,120
+---
+<<setEmpty Speaker>>
+Mann: Was guckst du so?
+===
+title: r6
+tags: 
+colorID: 0
+position: -1067,411
+---
+<<setEmpty Speaker>>
+Mann: Was sind das nur für Gestalten hier...
+===
+title: r7
+tags: 
+colorID: 0
+position: -802,408
+---
+<<setEmpty Speaker>>
+Polizistin: Der komische aus der Wache...
+===
+title: r8
+tags: 
+colorID: 0
+position: -541,408
+---
+<<setEmpty Speaker>>
+Polizistin: Ihnen kann keiner mehr helfen...
+===
+title: r9
+tags: 
+colorID: 0
+position: -1078,667
+---
+<<setEmpty Speaker>>
+Polizist: Geh weiter.
+===
+title: r10
+tags: 
+colorID: 0
+position: -832,648
+---
+<<setEmpty Speaker>>
+Mann: Geh weg.
+===
+title: r11
+tags: 
+colorID: 0
+position: -584,647
+---
+<<setEmpty Speaker>>
+Mann: Verschwinde.
+===
+title: r12
+tags: 
+colorID: 0
+position: -365,594
+---
+<<setEmpty Speaker>>
+Mann: Wo wollen Sie denn hin?
+<<setMain Speaker>>
+Spieler: Geht Sie nichts an.
+===
+title: r13
+tags: 
+colorID: 0
+position: -410,760
+---
+<<setEmpty Speaker>>
+Mann: Es wird langsam dunkel...
+===
+title: r14
+tags: 
+colorID: 0
+position: -176,807
+---
+<<setEmpty Speaker>>
+Mann: Ganz schön kalt heute...
+===
+title: 15
+tags: 
+colorID: 0
+position: -302,-284
+---
+<<setMain Speaker>>
+Spieler: AUS DEM WEG!
+<<setSpawn Player spawn9>>
+<<startFight FightHandler Labyrinth_gruen leer leer NPC>>
+===
+title: r15
+tags: 
+colorID: 0
+position: 60,689
+---
+<<setMain Speaker>>
+Spieler: AUS DEM WEG!
+===
+title: leer
+tags: 
+colorID: 0
+position: -1469,-682
+---
+<<setMain Speaker>>
+Ich gehe weiter!
+===
+title: 11_2
+tags: 
+colorID: 0
+position: 1805,-546
+---
+<<setMain Speaker>>
+Spieler: Geistig eingeschränkt?
+<<setSpawn Player spawn13>>
+<<startFight FightHandler Labyrinth_orange leer leer NPC>>
+===
+title: 6_2
+tags: 
+colorID: 0
+position: 2101,-691
+---
+<<setEmpty Speaker>>
+Mann: Nicht so frech!
+<<setMain Speaker>>
+Spieler: Du hast mir gar nichts zu sagen!
+<<setSpawn Player spawn5>>
+<<startFight FightHandler Labyrinth_orange leer leer NPC>>
+===
+title: 10_2
+tags: 
+colorID: 0
+position: 1532,-581
+---
+<<setMain Speaker>>
+Spieler: Wenn  ich so aussehen würde wie du, würde ich hier auch nur rumgammeln!
+<<setSpawn Player spawn8>>
+<<startFight FightHandler Labyrinth_orange leer leer NPC>>
+===
+title: 15_2
+tags: 
+colorID: 0
+position: 1479,-342
+---
+<<setMain Speaker>>
+Spieler: AUS DEM WEG!
+<<setSpawn Player spawn9>>
+<<startFight FightHandler Labyrinth_orange leer leer NPC>>
+===
+title: 9_2
+tags: 
+colorID: 0
+position: 1262,-583
+---
+<<setPolice Speaker>>
+Polizistin: Ich brauche Verstärkung!
+<<setMain Speaker>>
+Spieler: Die werden nicht mehr rechtzeitig kommen...
+<<setSpawn Player spawn7>>
+<<startFight FightHandler Labyrinth_orange leer leer NPC>>
+===
+title: 5_2
+tags: 
+colorID: 0
+position: 1826,-791
+---
+<<setMain Speaker>>
+Spieler: Weg da!
+<<setSpawn Player spawn4>>
+<<startFight FightHandler Labyrinth_orange leer leer NPC>>
+===
+title: 14_2
+tags: 
+colorID: 0
+position: 1167,-339
+---
+<<setMain Speaker>>
+Spieler: Wenn ich morgens aufstehen und dein Gesicht im Spiegel sehen würde, würde ich mich auch fragen, warum ich existiere.
+<<setSpawn Player spawn10>>
+<<startFight FightHandler Labyrinth_orange leer leer NPC>>
+===
+title: 4_2
+tags: 
+colorID: 0
+position: 1566,-865
+---
+<<setMain Speaker>>
+Spieler: Menschen wie du sind der Grund, warum ich die Menschliche Existenz hinterfrage.
+<<setSpawn Player spawn3>>
+<<startFight FightHandler Labyrinth_orange leer leer NPC>>
+===
+title: 2_2
+tags: 
+colorID: 0
+position: 1061,-873
+---
+<<setMain Speaker>>
+Spieler: Ich habe es eilig, was stehst du hier so rum?
+<<setSpawn Player spawn14>>
+<<startFight FightHandler Labyrinth_orange leer leer NPC>>
+===
+title: 3_2
+tags: 
+colorID: 0
+position: 1325,-870
+---
+<<setMain Speaker>>
+Spieler:Wenn du mir nicht gleich aus dem Weg gehst, haben wir ein großes Problem.
+<<setSpawn Player spawn2>>
+<<startFight FightHandler Labyrinth_orange leer leer NPC>>
+===
+title: 8_2
+tags: 
+colorID: 0
+position: 1012,-581
+---
+<<setPolice Speaker>>
+Polizist: Entschuldigung, das kann ich nicht dulden!
+<<setMain Speaker>>
+Spieler: Ach ja? Und was willst du dagegen tun?
+<<setSpawn Player spawn12>>
+<<startFight FightHandler Labyrinth_orange leer leer NPC>>
+===
+title: 13_2
+tags: 
+colorID: 0
+position: 923,-330
+---
+<<setMain Speaker>>
+Spieler: Deine Dummheit nimmt die ganze Straße ein.
+<<setSpawn Player spawn11>>
+<<startFight FightHandler Labyrinth_orange leer leer NPC>>
+===
+title: 1_2
+tags: 
+colorID: 0
+position: 770,-828
+---
+<<setMain Speaker>>
+Spieler: Geh mir aus dem Weg!
+<<setSpawn Player spawn6>>
+<<startFight FightHandler Labyrinth_orange leer leer NPC>>
+===
+title: 7_2
+tags: 
+colorID: 0
+position: 756,-589
+---
+<<setEmpty Speaker>>
+Frau: Was stimmt nicht mit dir?
+<<setMain Speaker>>
+Spieler: Gegenfrage: Was stimmt nicht mit DIR?
+<<setSpawn Player spawn1>>
+<<startFight FightHandler Labyrinth_orange leer leer NPC>>
+===
+title: 12_2
+tags: 
+colorID: 0
+position: 685,-345
+---
+<<setMain Speaker>>
+Spieler: Deine ignoranz riecht bis hier!
+<<setSpawn Player spawn6>>
+<<startFight FightHandler Labyrinth_orange leer leer NPC>>
+===

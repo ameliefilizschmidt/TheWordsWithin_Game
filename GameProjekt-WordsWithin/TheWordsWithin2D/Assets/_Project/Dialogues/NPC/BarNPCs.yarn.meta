@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: 23774484a8e4ddc48a1cae65fa81a2dd
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - BarNPCs-NPC1-0
+  - BarNPCs-NPC1-1
+  - BarNPCs-NPC1-2
+  - BarNPCs-NPC1-3
+  - BarNPCs-NPC1-4
+  - BarNPCs-NPC2-5
+  - BarNPCs-NPC3-6
+  - BarNPCs-NPC3-7
+  - BarNPCs-NPC3-8
+  - BarNPCs-NPC3-9
+  - BarNPCs-NPC3-10
+  - BarNPCs-NPC3-11
+  - BarNPCs-NPC3-12
+  - BarNPCs-NPC3-13
+  - BarNPCs-NPC3-14
+  - BarNPCs-NPC3-15
+  - BarNPCs-NPC3-16
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

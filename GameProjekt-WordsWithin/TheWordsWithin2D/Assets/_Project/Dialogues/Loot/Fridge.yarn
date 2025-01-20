@@ -1,0 +1,52 @@
+title: Fridge
+tags: 
+colorID: 0
+position: 1180,589
+---
+<<setMain Speaker>>
+Du öffnest den Kühlschrank.
+<<openFridge Fridge>>
+<<if $beer_collected and $pudding_collected>>
+Der Kühlschrank ist leer. Schade.
+
+<<else>>
+Du wirfst einen vorsichtigen Blick in den Kühlschrank...
+
+<< if not $beer_collected and not $pudding_collected>>
+-> Bier nehmen
+    Bier genommen
+    <<addSlider PowerSlider 10>>
+    <<save Savefile $beer_collected true>>
+
+-> Pudding nehmen
+    Pudding genommen
+    <<addSlider PowerSlider 10>>
+    <<save Savefile $pudding_collected true>>
+-> Kühlschrank wieder schließen
+    Du entscheidest dich, nichts von deinem Nachbarn zu klauen.
+<<endif>>
+
+<< if not $pudding_collected and $beer_collected>>
+-> Pudding nehmen
+    Pudding genommen
+    <<addSlider PowerSlider 10>>
+    <<save Savefile $pudding_collected true>>
+-> Kühlschrank wieder schließen
+    Ein Bier reicht erstmal...
+    
+<<endif>>
+
+<< if $pudding_collected and not $beer_collected>>
+-> Bier nehmen
+    Bier genommen
+    <<addSlider PowerSlider 10>>
+    <<save Savefile $beer_collected true>>
+
+-> Kühlschrank wieder schließen
+    Du hast gerade keine Lust auf ein Bier. Vielleicht gehst du später noch in eine Bar...
+   
+<<endif>>
+
+<<endif>>
+<<closeFridge Fridge>>
+===

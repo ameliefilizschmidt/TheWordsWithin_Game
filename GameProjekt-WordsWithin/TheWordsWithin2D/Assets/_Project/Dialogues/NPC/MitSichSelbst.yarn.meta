@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: 8f4f3a7ed19d66c4aacdd89344e09a94
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - MitSichSelbst-TalkToSelf-0
+  - MitSichSelbst-TalkToSelf1-1
+  - MitSichSelbst-TalkToSelf2-2
+  - MitSichSelbst-TalkToSelf3-3
+  - MitSichSelbst-TalkToSelf3-4
+  - MitSichSelbst-TalkToSelf3-5
+  - MitSichSelbst-KampfGegenSelbst-6
+  - MitSichSelbst-TalkToSelf4-7
+  - MitSichSelbst-TalkToSelf4-8
+  - MitSichSelbst-TalkToSelf4-9
+  - MitSichSelbst-TalkToSelf4-10
+  - MitSichSelbst-GegenSelbstGewonnen-11
+  - MitSichSelbst-GegenSelbstGewonnen-12
+  - MitSichSelbst-GegenSelbstVerloren-13
+  - MitSichSelbst-GegenSelbstVerloren-14
+  - MitSichSelbst-GegenSelbstVerloren-15
+  - MitSichSelbst-GegenSelbstVerloren-16
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

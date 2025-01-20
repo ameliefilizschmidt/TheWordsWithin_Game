@@ -1,0 +1,136 @@
+title: FinalGreen
+tags: 
+colorID: 2
+position: -616,-560
+---
+<<setMain Speaker>>
+Spieler: Almina! Da bist du ja endlich!
+<<setBF Speaker>>
+Fremder: Wer bist du? Was machst du hier?
+<<setMain Speaker>>
+Spieler: Lass sie gefälligst in Ruhe!
+<<setBF Speaker>>
+Fremder: Was redest du? Verschwinde!
+<<setMain Speaker>>
+Spieler: Almina ich werde dich retten!
+<<setGirl Speaker>>
+Almina: ...
+<<setBF Speaker>>
+Fremder: Ich rufe die Polizei.
+<<setMain Speaker>>
+Spieler: Du machst gar nichts mehr,
+[[SprechblasenFightFinale]]
+===
+title: GruneEnde
+tags: 
+colorID: 2
+position: -602,112
+---
+<<SwitchScene SceneSwitcher Outro4>>
+
+<<setMain Speaker>>
+Der Fremde bricht zusammen.
+Spieler: Jetzt bist du endlich frei!
+Spieler: Ich bringe dich in Sicherheit.
+<<setGirl Speaker>>
+Almina: Was hast du nur getan....
+===
+title: RotesEnde
+tags: 
+colorID: 4
+position: -90,104
+---
+<<SwitchScene SceneSwitcher HouseLabyrinth_verloren>>
+
+<<setMain Speaker>>
+Du brichst auf dem Boden zusammen.
+<<setBF2 Speaker>>
+Freund: Du verdammter Stalker! Die Polizei ist schon unterwegs.
+<<setGirl Speaker>>
+Almina: Lass mich endlich in Ruhe!
+Almina: Die ganzen Jahre verfolgst du mich schon.
+Almina: Jetzt hat das endlich ein Ende...
+
+<<SwitchScene scene_switcher MainMenu>>
+===
+title: FinalOrange
+tags: 
+colorID: 3
+position: -370,-560
+---
+<<setMain Speaker>>
+Spieler: Almina! Da bist du ja endlich!
+<<setBF Speaker>>
+Fremder: Wer bist du? Was machst du hier?
+<<setMain Speaker>>
+Spieler: Ich habe so lange nach dir gesucht!
+<<setBF Speaker>>
+Fremder: Was redest du? Verschwinde!
+<<setMain Speaker>>
+Spieler: Du hast sie entführt! Du Monster!
+<<setBF Speaker>>
+Entführer: Du bist doch total verwirrt...
+<<setGirl Speaker>>
+Almina: ...
+<<setBF Speaker>>
+Entführer: Ich rufe die Polizei.
+<<setMain Speaker>>
+Spieler: Du machst gar nichts mehr,
+[[SprechblasenFightFinale]]
+===
+title: FinalRed
+tags: 
+colorID: 5
+position: -117,-561
+---
+<<setMain Speaker>>
+Spieler: Almina! Da bist du ja endlich!
+<<setBF Speaker>>
+Fremder: Wer bist du? Was machst du hier?
+<<setMain Speaker>>
+Spieler: Ich habe so lange nach dir gesucht!
+<<setBF Speaker>>
+Fremder: Was redest du? Verschwinde!
+<<setMain Speaker>>
+Spieler: Wer bist du überhaupt?
+<<setBF Speaker>>
+Fremder: Das geht dich nichts an, ich kenne dich gar nicht.
+<<setMain Speaker>>
+Spieler: Du bist doch der Entführer, oder nicht?
+<<setBF Speaker>>
+Fremder: Entführer? Was stimmt nicht mit dir?
+<<setMain Speaker>>
+Spieler: Habe ich irgendwie etwas falsch verstanden?
+<<setBF Speaker>>
+Fremder: Ich bin kein Entführer.
+Fremder: Ich bin Alminas Freund, du Verrückter.
+<<setMain Speaker>>
+Spieler: ...
+Spieler: Was?
+Spieler: Almina, ich rette dich!
+
+[[SprechblasenFightFinale]]
+===
+title: SprechblasenFightFinale
+tags: 
+colorID: 0
+position: -367,-185
+---
+<<startFight FightHandler Ende GruneEnde RotesEnde BF>>
+===
+title: startLabHouse
+tags: 
+colorID: 0
+position: -370,-886
+---
+<<if $orangeLab>>
+[[FinalOrange]]
+
+<<elseif $greenLab>>
+[[FinalGreen]]
+
+<<elseif $redLab>>
+[[FinalRed]]
+
+<<endif>>
+===

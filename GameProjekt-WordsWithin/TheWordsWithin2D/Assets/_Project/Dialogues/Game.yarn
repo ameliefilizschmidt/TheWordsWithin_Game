@@ -1,0 +1,16 @@
+title: StartGame
+tags: 
+colorID: 0
+position: 1081,487
+---
+<<setMain Speaker>>
+Du solltest lieber nach deiner Geliebten suchen.
+===
+title: kaputt
+tags: 
+colorID: 0
+position: 843,486
+---
+<<setMain Speaker>>
+Der Automat scheint kaputt zu sein...
+===

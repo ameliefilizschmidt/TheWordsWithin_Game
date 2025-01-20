@@ -1,0 +1,12 @@
+title: Necklace
+tags: 
+colorID: 0
+position: 1180,588
+---
+Dort liegt eine Halskette. Sie gehört deinem Nachbarn. Möchtest du sie nehmen?
+-> Ja
+    Du besitzt jetzt eine Halskette. Hoffentlich merkt dein Nachbar das nicht.
+    <<pickupObject Necklace Necklace destroy>>
+-> Nein
+    Du entscheidest dich, die Halskette liegen zu lassen. Deine Freundschaft zu deinem Nachbarn ist dir wichtiger.
+===

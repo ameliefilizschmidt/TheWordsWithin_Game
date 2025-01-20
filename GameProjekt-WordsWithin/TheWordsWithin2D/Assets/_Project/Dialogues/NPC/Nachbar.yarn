@@ -1,0 +1,257 @@
+title: NachbarNice
+tags: 
+colorID: 7
+position: -551,149
+---
+<<if not $visitedNeighbourCompletly>>
+<<if not $visitedNeighbour>>
+
+<<setNeighbour Speaker>>
+Nachbar: Was willst du hier??
+<<setMain Speaker>>
+-> Wie geht es dir?
+    <<setNeighbour Speaker>>
+    Nachbar: Was interessiert dich das?
+-> Was machst du gerade?
+    <<setNeighbour Speaker>>
+    Nachbar: Nichts, was dich angehen könnte.
+
+<<setMain Speaker>>
+Der Nachbar ist anscheinend gereizt. 
+    
+
+
+-> Bist du alleine hier?
+    <<save Savefile $visitedNeighbour true>>
+    <<setNeighbour Speaker>>
+    Nachbar: Nee offensichtlich nicht, du stehst ja vor mir.
+
+-> Ich schaue mich erstmal um.
+    <<setNeighbour Speaker>>
+    Nachbar: Mach halt!
+    <<save Savefile $visitedNeighbour false>>
+    <<set $visitedNeighbour to false>>
+
+
+<<endif>>
+
+
+<<if $visitedNeighbour>>
+
+<<setMain Speaker>>
+Spieler: Ich suche Almina.
+<<setNeighbour Speaker>>
+Nachbar: Ja und?
+<<setMain Speaker>>
+Spieler: Hast du eine Idee, wo sie stecken könnte?
+<<setNeighbour Speaker>>
+Nachbar: Hmmm. 
+<<setMain Speaker>>
+Spieler: Ich glaube sie steckt in Schwierigkeiten.
+<<setNeighbour Speaker>>
+Nachbar: Ouh, ich habe sie länger nicht gesehen. 
+Nachbar: Vielleicht könnte sie bei ihrer Mutter sein.
+<<setMain Speaker>>
+Ich muss versuchen, die Mutter zu finden.
+-> Wo finde ich die Mutter?
+    <<setNeighbour Speaker>>
+    Nachbar: Maan du nervst, lass mich in Ruhe mit deinen Fragen.
+    <<setMain Speaker>>
+    Spieler: Ich dachte, Almina ist dir auch wichtig.
+    <<setNeighbour Speaker>>
+    Nachbar: Na gut, wenn du aufhörst mich zu nerven: Sie wohnt am See. Eventuell suchst du dort nach ihr.
+
+-> Alles klar, danke für deine Hilfe.
+    <<setNeighbour Speaker>>
+    Nachbar: Gerne doch, versuch es doch eventuell mal beim See.
+
+<<save Savefile $fromStartToMom true>>
+<<addSlider PowerSlider 15>>
+<<save Savefile $visitedNeighbourCompletly true>>
+<<endif>>
+
+<<else>>
+<<setNeighbour Speaker>>
+Nachbar: Hau endlich ab!
+<<endif>>
+===
+title: NachbarHard
+tags: 
+colorID: 0
+position: 309,158
+---
+<<if not $visitedNeighbourCompletly>>
+<<if not $visitedNeighbour>>
+
+<<setNeighbour Speaker>>
+Nachbar: Was zur Hölle willst du hier??
+
+<<setMain Speaker>>
+-> Wie geht es dir?
+    <<setNeighbour Speaker>>
+    Nachbar: Was interessiert dich das? Du kannst doch eh nur klauen.
+-> Was machst du gerade?
+    <<setNeighbour Speaker>>
+    Nachbar: Mich darüber aufregen, dass du mein Haus leerräumst.
+
+<<setMain Speaker>>
+Der Nachbar ist anscheinend stark gereizt. Eventuell hast du zu viel mitgenommen?
+
+
+
+-> Bist du alleine hier?
+    <<setNeighbour Speaker>>
+    Nachbar: Nee leider nicht, du klaust hier ja meine Sachen.
+    <<save Savefile $visitedNeighbour true>>
+    <<set $visitedNeighbour to true>>
+
+-> Ich schaue mich erstmal um.
+    <<setNeighbour Speaker>>
+    Nachbar: Damit du noch mehr klauen kannst? Da ist die Tür!
+    <<save Savefile $visitedNeighbour false>>
+
+
+<<endif>>
+
+
+<<if $visitedNeighbour>>
+
+<<save Savefile $fromStartToBar true>>
+<<save Savefile $visitedNeighbourCompletly true>>
+<<endif>>
+
+<<else>>
+<<setNeighbour Speaker>>
+Nachbar: Verpiss dich, geb mir meine Sachen zurück!
+<<endif>>
+===
+title: NachbarNormal
+tags: 
+colorID: 0
+position: -33,154
+---
+<<if not $visitedNeighbourCompletly>>
+<<if not $visitedNeighbour>>
+<<setNeighbour Speaker>>
+Nachbar: Was willst du hier??
+<<setMain Speaker>>
+-> Wie geht es dir?
+    <<setNeighbour Speaker>>
+    Nachbar: Was interessiert dich das?
+-> Was machst du gerade?
+    <<setNeighbour Speaker>>
+    Nachbar: Nichts, was dich angehen könnte.
+
+<<setMain Speaker>>
+Der Nachbar ist anscheinend gereizt. Eventuell hättest du nichts einstecken sollen.
+
+
+
+-> Bist du alleine hier?
+    <<save Savefile $visitedNeighbour true>>
+    <<setNeighbour Speaker>>
+    Nachbar: Nee offensichtlich nicht, du stehst ja vor mir.
+
+-> Ich schaue mich erstmal um.
+    <<setNeighbour Speaker>>
+    Nachbar: Mach halt!
+    <<save Savefile $visitedNeighbour false>>
+
+
+<<endif>>
+
+
+<<if $visitedNeighbour>>
+
+<<setMain Speaker>>
+Spieler: Ich suche Almina.
+<<setNeighbour Speaker>>
+Nachbar: Ja und?
+<<setMain Speaker>>
+Spieler: Hast du eine Idee, wo sie stecken könnte?
+<<setNeighbour Speaker>>
+Nachbar: Hmmm. 
+<<setMain Speaker>>
+Spieler: Ich glaube sie steckt in Schwierigkeiten.
+<<setNeighbour Speaker>>
+Nachbar: Ouh, ich habe sie länger nicht gesehen. 
+Nachbar: Ich auch nicht. Vielleicht gehst du mal in den Park und lässt mich in Ruhe.
+<<setMain Speaker>>
+Ich sollte mal im Park suchen gehen.
+
+-> Alles klar, danke für deine Hilfe.
+    <<setNeighbour Speaker>>
+    Nachbar: Hau endlich ab!
+
+<<save Savefile $fromStartToPark true>>
+<<addSlider PowerSlider 5>>
+<<save Savefile $visitedNeighbourCompletly true>>
+<<endif>>
+
+<<else>>
+<<setNeighbour Speaker>>
+Nachbar: Hau endlich ab!
+<<endif>>
+===
+title: NachbarGewonnen
+tags: 
+colorID: 0
+position: 87,735
+---
+<<save Savefile $neighbourFightWon true>>
+<<setNeighbour Speaker>>
+Nachbar: Raus aus meinem Haus.
+<<setMain Speaker>>
+===
+title: NachbarVerloren
+tags: 
+colorID: 8
+position: 503,736
+---
+<<save Savefile $neighbourFightWon false>>
+<<setNeighbour Speaker>>
+Nachbar: Gib mir jetzt meine Sachen zurück.
+<<setMain Speaker>>
+Du gibst all deine Sachen ab.
+<<setNeighbour Speaker>>
+Nachbar: Und jetzt raus mit dir!
+<<setMain Speaker>>
+===
+title: NeighbourLeave
+tags: 
+colorID: 0
+position: -416,388
+---
+<<if not $visitedNeighbourCompletly>>
+<<setMain Speaker>>
+Ups! Du wolltest noch den Nachbarn begrüßen. 
+<<moveY Player 20>>
+Du schließt die Tür und drehst dich in Richtung deines Nachbarn.
+<<setNeighbour Speaker>>
+Nachbar: Hm?
+
+<<else>>
+<<setMain Speaker>>
+Du hast das Gefühl, dass dein Nachbar dich nicht erneut hereinlässt.
+Möchtest Du das Haus trotzdem verlassen?
+<<setSpawn Player Spawn2>>
+
+-> Ja, ich muss Almina suchen!
+
+    <<if $beer_collected or $pudding_collected or $knife_collected>>
+    Gib mir meine Sachen zurück!
+    
+    <<startFight FightHandler Start NachbarGewonnen NachbarVerloren NeighbourTopText>>
+
+
+    <<else>>
+    <<SwitchScene WarpToNextScene Start>>
+    <<setNeighbour Speaker>>
+    Nachbar: Hmpf!
+    <<endif>>
+
+-> Nein, ich möchte mich weiter umsehen.    
+    <<moveY Player 20>>
+    Vielleicht findest du noch etwas hilfreiches?
+<<endif>>
+===

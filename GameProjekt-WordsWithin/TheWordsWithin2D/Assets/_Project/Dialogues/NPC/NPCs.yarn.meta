@@ -1,0 +1,63 @@
+fileFormatVersion: 2
+guid: 7747d6417a064e648b158adc64d2557f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - NPCs-NPC6-0
+  - NPCs-NPC6-1
+  - NPCs-NPC6-2
+  - NPCs-NPC6-3
+  - NPCs-NPC6-4
+  - NPCs-NPC6-5
+  - NPCs-NPC6-6
+  - NPCs-NPC7-7
+  - NPCs-NPC7-8
+  - NPCs-NPC7-9
+  - NPCs-NPC7-10
+  - NPCs-NPC7-11
+  - NPCs-NPC8-12
+  - NPCs-NPC10-13
+  - NPCs-NPC10-14
+  - NPCs-NPC10-15
+  - NPCs-NPC10-16
+  - NPCs-NPC10-17
+  - NPCs-NPC10-18
+  - NPCs-NPC10-19
+  - NPCs-NPC10-20
+  - NPCs-NPC12-21
+  - NPCs-NPC12-22
+  - NPCs-NPC12-23
+  - NPCs-NPC12-24
+  - NPCs-NPC12-25
+  - NPCs-NPC12-26
+  - NPCs-NPC12-27
+  - NPCs-NPC12-28
+  - NPCs-NPC12-29
+  - NPCs-NPC13-30
+  - NPCs-NPC13-31
+  - NPCs-NPC13-32
+  - NPCs-NPC14-33
+  - NPCs-NPC14-34
+  - NPCs-NPC14-35
+  - NPCs-NPC14-36
+  - NPCs-NPC14-37
+  - NPCs-NPC15-38
+  - NPCs-NPC15-39
+  - NPCs-NPC15-40
+  - NPCs-NPC15-41
+  - NPCs-NPC15-42
+  - NPCs-NPC16-43
+  - NPCs-NPC17-44
+  - NPCs-NPC17-45
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

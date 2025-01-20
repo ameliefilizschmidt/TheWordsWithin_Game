@@ -1,0 +1,54 @@
+fileFormatVersion: 2
+guid: b19cc539b437c5548b2f5bf334add707
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - LabNPCs-1-0
+  - LabNPCs-2-1
+  - LabNPCs-3-2
+  - LabNPCs-4-3
+  - LabNPCs-5-4
+  - LabNPCs-6-5
+  - LabNPCs-6-6
+  - LabNPCs-7-7
+  - LabNPCs-7-8
+  - LabNPCs-8-9
+  - LabNPCs-8-10
+  - LabNPCs-9-11
+  - LabNPCs-9-12
+  - LabNPCs-10-13
+  - LabNPCs-11-14
+  - LabNPCs-12-15
+  - LabNPCs-13-16
+  - LabNPCs-14-17
+  - LabNPCs-r1-18
+  - LabNPCs-r2-19
+  - LabNPCs-r2-20
+  - LabNPCs-r3-21
+  - LabNPCs-r3-22
+  - LabNPCs-r4-23
+  - LabNPCs-r5-24
+  - LabNPCs-r6-25
+  - LabNPCs-r7-26
+  - LabNPCs-r8-27
+  - LabNPCs-r9-28
+  - LabNPCs-r10-29
+  - LabNPCs-r11-30
+  - LabNPCs-r12-31
+  - LabNPCs-r12-32
+  - LabNPCs-r13-33
+  - LabNPCs-r14-34
+  - LabNPCs-15-35
+  - LabNPCs-r15-36
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

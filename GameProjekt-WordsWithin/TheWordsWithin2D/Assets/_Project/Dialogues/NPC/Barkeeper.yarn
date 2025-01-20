@@ -1,0 +1,287 @@
+title: BarkeeperEntry
+tags: 
+colorID: 0
+position: -643,206
+---
+<<if not $entryBar>>
+<<setBarkeeper Speaker>>
+Barkeeper: Hey! Das übliche? 
+<<setMain Speaker>>
+Die Bar scheint heute sehr leer zu sein. Ein Bier wäre jetzt toll!
+<<save Savefile $entryBar true>>
+<<set $entryBar to true>>
+<<endif>>
+===
+title: Barkeeper
+tags: 
+colorID: 0
+position: -645,460
+---
+<<if not $allowBarExit>>
+
+<<setMain Speaker>>
+Spieler: Ganz schön dunkel hier...
+-> Hey, wie gehts?
+    <<setBarkeeper Speaker>>
+    Barkeeper: Ganz ok, muss ja. Sehr wenig los hier. 
+    <<setMain Speaker>>
+    Spieler: Ja, das ist mir auch direkt aufgefallen.
+-> Wie läuft die Bar?
+    <<setBarkeeper Speaker>>
+    Barkeeper: Heute ist nichts los.
+    <<setMain Speaker>>
+    Spieler: Dann ist es ja gut, dass ich jetzt hier bin!
+<<setBarkeeper Speaker>>
+Barkeeper: Möchtest du schon mal was trinken?
+<<setMain Speaker>>
+-> Hast du was von Almina gehört?
+    Spieler:  Ich habe sie schon länger nicht gesehen..
+    [[BarkeeperAlmina]]
+    
+-> Ja!
+    <<setBarkeeper Speaker>>
+    Barkeeper: Was darf's denn sein?
+    <<setMain Speaker>>
+    -> Ein Bier bitte.
+        <<setBarkeeper Speaker>>
+        Barkeeper: Hier bitte.
+        [[BarkeeperBeer]]
+    -> Bevor ich was trinke...
+        Hast du was von Almina gehört?
+        Spieler:  Ich habe sie schon länger nicht gesehen..
+        [[BarkeeperAlmina]]
+
+<<endif>>
+===
+title: BarkeeperAlmina
+tags: 
+colorID: 0
+position: -789,809
+---
+<<setBarkeeper Speaker>>
+Barkeeper: Almina? Das letzte Mal habe ich sie vor ungefähr ner Woche mit einem größeren Mann gesehen.
+<<setMain Speaker>>
+Spieler: Ein größerer Mann?
+Das könnte er sein...
+<<setBarkeeper Speaker>>
+Barkeeper: Ja, er sah recht stark aus.
+<<setMain Speaker>>
+Spieler: Stark? Das könnte passen.
+<<setBarkeeper Speaker>>
+Barkeeper: Was meinst du? Was könnte passen?
+<<setMain Speaker>>
+Spieler: Almina ist verschwunden. Ich denke sie wurde entführt.
+<<setBarkeeper Speaker>>
+Barkeeper: Möchtest du vielleicht jetzt ein Bier?
+<<setMain Speaker>>
+-> Hast du mir zugehört?
+    <<setBarkeeper Speaker>>
+    Barkeeper: Ja, deswegen frage ich ja.
+    
+    -> Du hast Recht! Ein Bier bitte! 
+        [[BarkeeperBeer]]
+    -> Ne, lieber nicht.
+        [[BarkeeperAlimna2]]
+-> Ja gerne!
+    [[BarkeeperBeer]]
+===
+title: BarkeeperBeer
+tags: 
+colorID: 0
+position: -502,817
+---
+Vielleicht sollte ich noch etwas spazieren gehen, um auf neue Gedanken zu kommen.
+[[WarpFromBarToPark]]
+===
+title: BarkeeperAlimna2
+tags: 
+colorID: 0
+position: -792,1115
+---
+<<setBarkeeper Speaker>>
+Barkeeper: Wie kommst du darauf, dass sie entführt wurde?
+<<setMain Speaker>>
+Spieler: Es passt alles zusammen! Dieser Mann, den du gesehen hast, war es!
+<<setBarkeeper Speaker>>
+Barkeeper: Hm. Bist du dir sicher?
+<<setMain Speaker>>
+-> Ja, er war es auf jeden Fall!
+    <<addSlider PowerSlider 10>>
+-> Ich weiß es nicht..
+<<setBarkeeper Speaker>>
+Barkeeper: Du warst ja schon immer ein wenig paranoid.
+Barkeeper: Möchtest du vielleicht jetzt was trinken?
+<<setMain Speaker>>
+-> Ja gerne!
+    [[BarkeeperBeer]]
+-> Wieso paranoid?
+    <<setBarkeeper Speaker>>
+    Barkeeper: Naja, dein Verhalten ist nicht normal.
+Dein Nachbar hat schon Angst vor dir und ich so langsam auch..
+<<setMain Speaker>>
+-> Wie kommst du darauf?
+    Ich verhalte mich doch wie immer.
+    <<setBarkeeper Speaker>>
+    Deine Augen funkeln mehr als sonst. Irgendwas stimmt nicht.
+-> Der Nachbar ist selbst verrückt!
+    <<setBarkeeper Speaker>>
+    Ein wenig vielleicht schon, ja.
+
+<<if $knife_collected>>
+Barkeeper: Was hast du da eigentlich in deiner Tasche?
+<<setMain Speaker>>
+Mist! Ein Messer ist in der Bar bestimmt nicht erlaubt.
+Spieler: Nichts. Was meinst du?
+<<setBarkeeper Speaker>>
+Barkeeper: Erzähl doch keinen Mist! Ich seh das doch!
+Du weißt doch ganz genau, dass hier Waffen verboten sind!
+<<setMain Speaker>>
+-> Ja, ich weiß, es tut mir Leid.
+    <<setBarkeeper Speaker>>
+    Barkeeper: Was hast du denn dabei?
+    <<setMain Speaker>>
+    Du holst das Messer raus.
+    Spieler: Nur ein kleines Messer.
+    <<setBarkeeper Speaker>>
+    Barkeeper: Warum hast du sowas in deiner Tasche?
+    <<setMain Speaker>>
+    Spieler: Um mich gegen den Entführer wehren zu können.
+    <<setBarkeeper Speaker>>
+    Barkeeper: Wo willst du denn mit deiner Suche anfangen?
+    <<setMain Speaker>>
+    Spieler: Ich habe bereits meinen Nachbarn befragt.
+    Der konnte mir allerdings auch nicht weiterhelfen. Er war sehr wütend.
+    <<setBarkeeper Speaker>>
+    Barkeeper: Warum war er wütend?
+    <<setMain Speaker>>
+    -> Das weiß ich auch nicht!
+        Er wirkte total verrückt.
+        <<setBarkeeper Speaker>>
+        Barkeeper: Du hast ja auch ein Messer dabei!
+        <<setMain Speaker>>
+        Spieler: Ich habe nichts falsch gemacht!
+        <<addSlider PowerSlider 5>>
+        [[SprechblasenfightBar]]
+    
+    -> Ich war nicht nett.
+        Vielleicht habe ich mich nicht korrekt verhalten...
+        <<setBarkeeper Speaker>>
+        Barkeeper: Wenn du so verzweifelt bist, versuch es doch am besten mal bei der Polizei.
+        <<setMain Speaker>>
+        Spieler: Da bin ich selbst noch gar nicht drauf gekommen! Das ist eine gute Idee.
+        [[WarpToPoliceStation]]
+        
+
+-> Ich habe keine Waffe dabei.
+    Du spinnst!
+    <<addSlider PowerSlider 5>>
+    <<setBarkeeper Speaker>>
+    Barkeeper: Ich schmeiß dich raus, wenn du mir nicht die Wahrheit sagst.
+    [[SprechblasenfightBar]]
+<<else>>
+
+Spieler: Ich hätte jetzt gerne ein Bier.
+[[BarkeeperBeer]]
+
+<<endif>>
+===
+title: BarGewonnen
+tags: 
+colorID: 2
+position: 45,1082
+---
+[[WarpFromBarToPark]]
+===
+title: BarVerloren
+tags: 
+colorID: 5
+position: -203,1321
+---
+[[WarpToWayPolice]]
+===
+title: SprechblasenfightBar
+tags: 
+colorID: 6
+position: -496,1123
+---
+<<setSpawn Player Spawn2>>
+<<startFight FightHandler Bar_Aussen BarGewonnen BarVerloren BarTopText>>
+===
+title: WarpFromBarToPark
+tags: 
+colorID: 8
+position: -182,804
+---
+<<save Savefile $fromBarToPark true>>
+<<save Savefile $allowBarExit true>>
+===
+title: WarpToPoliceStation
+tags: 
+colorID: 8
+position: -1084,1410
+---
+<<save Savefile $fromBarToPoliceStation true>>
+<<save Savefile $allowBarExit true>>
+===
+title: WarpToWayPolice
+tags: 
+colorID: 8
+position: -195,1576
+---
+<<save Savefile $fromBarToWayPolice true>>
+<<save Savefile $allowBarExit true>>
+===
+title: LeaveBar
+tags: 
+colorID: 0
+position: 190,1328
+---
+<<if not $allowBarExit>>
+<<setMain Speaker>>
+Ups! Du wolltest noch mit dem Barkeeper sprechen. 
+<<moveX Player 20>>
+Du schließt die Tür.
+<<setBarkeeper Speaker>>
+Barkeeper: Hm?
+
+<<else>>
+<<setMain Speaker>>
+Du hast das Gefühl, dass die Bar nicht mehr lange geöffnet hat.
+Möchtest Du die Bar trotzdem verlassen?
+-> Ja, ich muss Almina suchen!
+    <<setSpawn Player Spawn2>>
+    <<SwitchScene Exit Bar_Aussen>>
+    <<setBarkeeper Speaker>>
+    Barkeeper: Bis zum nächsten Mal!
+    
+-> Nein, ich möchte mich weiter umsehen.    
+    <<moveX Player 20>>
+    Vielleicht findest du noch was hilfreiches?
+    Eigentlich hast du schon alles gesehen...
+<<endif>>
+===
+title: WarpFromBar
+tags: 
+colorID: 0
+position: -688,1601
+---
+<<if $fromBarToPark>>
+
+<<SwitchScene Warp Park>>
+
+<<elseif $fromBarToPoliceStation>>
+
+<<SwitchScene Warp transition_city_police>>
+
+<<elseif $fromBarToWayPolice>>
+
+<<SwitchScene Warp Weg_mit_Polizist>>
+
+
+<<else>>
+
+<<moveY Player -20>>
+Ups, erst möchte ich in die Bar.
+
+<<endif>>
+===

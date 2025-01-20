@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 2dee92cc53788b444a6f57e71fe00c36
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Tutorial-Tutorial-0
+  - Tutorial-Tutorial-1
+  - Tutorial-Tutorial-2
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

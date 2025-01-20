@@ -1,0 +1,420 @@
+title: VermisstenAnzeige
+tags: 
+colorID: 0
+position: -1020,-501
+---
+<<if $fromBarToPoliceStation>>
+[[VermisstenAnzeigeOhneFestnahme]]
+<<else>>
+<<setMain Speaker>>
+Du wendest dich an die Polizisten.
+-> Ich brauche dringend Hilfe!
+    <<setPolice Speaker>>
+    Polizist: Um was geht es denn?
+    <<setMain Speaker>>
+    Spieler: Eine gute Freundin wurde entführt!
+-> Jemand wurde entführt.
+
+<<setPolice Speaker>>
+Polizist: Hm. Was heißt entführt?
+Polizist: Ist die Person überhaupt schon länger als 24 Stunden verschwunden?
+
+<<setMain Speaker>>
+-> Ja, schon länger!
+    <<addSlider PowerSlider 10>>
+-> Nein, erst seit kurzem.
+
+<<setPolice Speaker>>
+Polizist: Wie viele Stunden denn schon genau?
+
+<<setMain Speaker>>
+Spieler: Weiß ich auch nicht so genau!
+Spieler: Bitte helfen Sie mir jetzt!
+
+<<setPolice Speaker>>
+Polizist: Geht es Ihnen gut? 
+Polizist: Haben Sie etwas getrunken?
+Polizist im Hintergrund: Der hat doch Drogen genommen!
+Polizist im Hintergrund: Sieh dir doch nur mal seine Augenringe an!
+Polizist leise zum Kollegen: Der Typ ist doch verrückt..
+<<setMain Speaker>>
+Spieler: Nein, natürlich nicht!
+Deine Hände beginnen zu zittern.
+
+-> Helfen Sie mir sofort!
+    Sonst werde ich sauer!
+    <<setPolice Speaker>>
+    Polizist: Wollen Sie uns etwa drohen?
+    Polizist: Jetzt beruhigen Sie sich erstmal.
+
+-> Wenn, ist die Mutter verrückt.
+    <<addSlider PowerSlider 10>>
+    
+    <<setPolice Speaker>>
+    Polizist: Wessen Mutter?
+    Polizist: Sie sind doch komplett verwirrt!
+    <<setMain Speaker>>
+    Spieler: Die Mutter der vermissten, wer denn sonst?
+
+<<setPolice Speaker>>
+Polizist im Hintergrund: Dem kann doch keiner mehr helfen..
+Anderer Polizist: Seht ihr wie seine Hände zittern?
+Polizist: Komplett am Ende, der Typ.
+
+<<setMain Speaker>>
+Spieler (verzweifelt): Ich möchte doch nur Hilfe haben!
+
+<<setPolice Speaker>>
+Polizist: Wie kann man Ihnen bitte noch helfen?
+
+<<setMain Speaker>>
+-> Ich hab ein Messer dabei!
+    <<addSlider PowerSlider 10>>
+    Der Polizist greift an seinen Gürtel.
+    Die anderen Polizisten sind alarmiert.
+
+-> Ihr seid zu nichts zu gebrauchen!
+    <<setPolice Speaker>>
+    Polizist: Sie sind doch der verrückte hier.
+    Polizist: Wie sollen wir Ihnen helfen, wenn Sie nichtmal klar sprechen können?
+
+Du beginnst schwer zu atmen.
+<<setPolice Speaker>>
+Polizist: Vielleicht sollten wir Sie lieber hier behalten, bis Sie sich beruhigt haben.
+<<setMain Speaker>>
+-> Mit mir ist alles in Ordnung! 
+    Was stimmt mit Ihnen nicht?
+    <<setPolice Speaker>>
+    Polizist: Ich glaube uns bleibt keine andere Wahl.
+
+-> Auf keinen Fall!
+
+[[SprechblasenFightPolice]]
+
+<<endif>>
+===
+title: PoliceInPark
+tags: 
+colorID: 0
+position: -428,-516
+---
+<<if not $foughtPolice>>
+
+<<setSlider PowerSlider 50>>
+
+<<setMain Speaker>>
+Du wendest dich an den Polizisten.
+-> Ich brauche dringend Hilfe!
+    <<addSlider PowerSlider -10>>
+    
+    <<setPolice Speaker>>
+    Polizist: Um was geht es denn?
+    <<setMain Speaker>>
+    Spieler: Eine gute Freundin wurde entführt!
+-> Jemand wurde entführt.
+    <<addSlider PowerSlider 10>>
+
+<<setPolice Speaker>>
+Polizist: Hm. Was heißt entführt?
+Polizist: Ist die Person überhaupt schon länger als 24 Stunden verschwunden?
+
+<<setMain Speaker>>
+-> Ja, schon länger!
+    <<addSlider PowerSlider 10>>
+-> Nein, erst seit kurzem.
+    <<addSlider PowerSlider -10>>
+
+<<setPolice Speaker>>
+Polizist: Wie viele Stunden denn schon genau?
+
+<<setMain Speaker>>
+Spieler: Weiß ich auch nicht so genau!
+Spieler: Bitte helfen Sie mir jetzt!
+
+<<setPolice Speaker>>
+Polizist: Geht es Ihnen gut? 
+Polizist: Haben Sie etwas getrunken?
+
+<<setMain Speaker>>
+Spieler: Nein!
+Spieler: Wieso versteht mich denn keiner?
+Du fängst an zu zittern.
+
+<<setPolice Speaker>>
+Polizist: Ich glaube mit Ihnen stimmt etwas nicht.
+
+<<setMain Speaker>>
+-> Ich brauche doch nur Hilfe.
+    <<addSlider PowerSlider -5>>
+-> Die Situation ist ernst!
+    Wie kann Ihnen das so egal sein?
+    <<addSlider PowerSlider 5>>
+
+<<setPolice Speaker>>
+Polizist: Werden Sie nicht aggressiv!
+<<setMain Speaker>>
+Der Polizist spricht in sein Funkgerät..
+<<setPolice Speaker>>
+Polizist: Ich brauche Verstärkung!
+
+<<setMain Speaker>>
+-> Jetzt hören Sie doch mal zu!
+    <<addSlider PowerSlider -5>>
+-> Sie sind zu nichts zu gebrauchen...
+    <<addSlider PowerSlider 5>>
+
+<<setPolice Speaker>>
+Polizist: Haben Sie irgendwelche Beweise?
+
+<<setMain Speaker>>
+Spieler: ...
+-> Ich habe es gesehen!
+    Mit meinen eigenen Augen...
+    <<addSlider PowerSlider 5>>
+
+-> Sie gab mir eine Rose!
+    <<addSlider PowerSlider -5>>
+    <<setPolice Speaker>>
+    Polizist: Eine Rose ist doch kein Beweis?
+    <<setMain Speaker>>
+    Spieler: Sie verstehen das nicht.
+<<setPolice Speaker>>
+Polizist: Sie haben keinerlei Beweise und auf der Wache ist nichts bekannt.
+
+<<setMain Speaker>>
+-> Seit wann braucht man Beweise?
+    Ich möchte doch nur jemanden vermisst melden!
+    <<addSlider PowerSlider 6>>
+
+-> Sie sind mir keine Hilfe.
+    Wenn Sie es wenigstens versuchen würden...
+    <<addSlider PowerSlider -6>>
+
+<<setEmpty Speaker>>
+Aus dem Funkgerät: Verstärkung ist unterwegs!
+
+<<setMain Speaker>>
+Ich sollte lieber gehen.
+
+
+[[Über50]]
+
+<<endif>>
+===
+title: VermisstenAnzeigeOhneFestnahme
+tags: 
+colorID: 0
+position: 58,-522
+---
+<<setMain Speaker>>
+Du wendest dich an die Polizisten.
+-> Ich brauche dringend Hilfe!
+    <<setPolice Speaker>>
+    Polizist: Um was geht es denn?
+    <<setMain Speaker>>
+    Spieler: Eine gute Freundin wurde entführt!
+-> Jemand wurde entführt.
+
+<<setPolice Speaker>>
+Polizist: Hm. Was heißt entführt?
+Polizist: Ist die Person überhaupt schon länger als 24 Stunden verschwunden?
+
+<<setMain Speaker>>
+-> Ja, schon länger!
+    <<addSlider PowerSlider 10>>
+-> Nein, erst seit kurzem.
+
+<<setPolice Speaker>>
+Polizist: Wie viele Stunden denn schon genau?
+
+<<setMain Speaker>>
+Spieler: Weiß ich auch nicht so genau!
+Spieler: Bitte helfen Sie mir jetzt!
+
+<<setPolice Speaker>>
+Polizist: Geht es Ihnen gut? 
+Polizist: Haben Sie etwas getrunken?
+Polizist im Hintergrund: Der hat doch Drogen genommen!
+Polizist im Hintergrund: Sieh dir doch nur mal seine Augenringe an!
+Polizist leise zum Kollegen: Der Typ ist doch verrückt..
+
+<<setMain Speaker>>
+Spieler: Nein, natürlich nicht!
+Deine Hände beginnen zu zittern.
+
+-> Ich möchte nur Hilfe!
+-> Ich bin verzweifelt!
+
+<<setPolice Speaker>>
+Polizist: Jetzt beruhigen Sie sich erstmal.
+Polizist: Wir können Ihnen leider nicht helfen.
+
+<<setPolice Speaker>>
+Polizist im Hintergrund: Dem kann doch keiner mehr helfen..
+Anderer Polizist: Seht ihr wie seine Hände zittern?
+Polizist: Komplett am Ende, der Typ.
+
+<<setMain Speaker>>
+Spieler (verzweifelt): Ich möchte sie doch einfach nur retten!
+
+<<setPolice Speaker>>
+Polizist: Es gibt niemanden zu retten.
+
+<<setMain Speaker>>
+Spieler: Ich verstehe das nicht....
+Vielleicht sollte ich spazieren gehen um einen klaren Kopf zu bekommen.
+
+<<save Savefile $redLab true>>
+<<save Savefile $visitedPolice true>>
+===
+title: SprechblasenFightPolice
+tags: 
+colorID: 0
+position: -830,-180
+---
+<<startFight FightHandler Polizei PoliceGewonnen PoliceVerloren PoliceTopText>>
+===
+title: PoliceGewonnen
+tags: 
+colorID: 0
+position: -990,130
+---
+<<save Savefile $greenLab true>>
+<<save Savefile $visitedPolice true>>
+
+<<SwitchScene Door Outro0>>
+===
+title: PoliceVerloren
+tags: 
+colorID: 0
+position: -659,131
+---
+<<save Savefile $orangeLab true>>
+<<save Savefile $visitedPolice true>>
+===
+title: Über50
+tags: 
+colorID: 0
+position: -521,-214
+---
+<<setPolice Speaker>>
+Polizist: Moment mal...
+[[SprechblasenFight]]
+===
+title: Unter50
+tags: 
+colorID: 0
+position: -152,-216
+---
+[[Labyrinth]]
+===
+title: SprechblasenFight
+tags: 
+colorID: 0
+position: -380,87
+---
+<<save Savefile $foughtPolice true>>
+<<setSpawn Player spawn2>>
+
+<<startFight FightHandler Weg_mit_Polizist Labyrinth Labyrinth WayPoliceTopText>>
+
+
+
+
+<<addSlider PowerSlider 10>>
+===
+title: Labyrinth
+tags: 
+colorID: 0
+position: -281,350
+---
+<<setMain Speaker>>
+Was soll ich nur tun?
+Ich sollte sie suchen gehen...
+
+<<save Savefile $orangeLab true>>
+<<save Savefile $visitedPolice true>>
+===
+title: EnterPolice
+tags: 
+colorID: 0
+position: -1379,-836
+---
+<<setMain Speaker>>
+Dies ist die Polizeistation.
+-> Weiter umsehen
+    Du hast eigentlich schon alles gesehen, möchtest aber gerne weiter durch die Gegend laufen.
+-> Haus betreten
+    Du betrittst das Haus.
+    <<SwitchScene Police_station1 PolizeiStation>>
+===
+title: LeavePolice
+tags: 
+colorID: 0
+position: 235,75
+---
+<<if not $visitedPolice>>
+<<setMain Speaker>>
+Ups! Du wolltest noch mit der Polizei sprechen. 
+<<moveY Player 20>>
+Du schließt die Tür und drehst dich in Richtung der Beamten.
+<<setPolice Speaker>>
+Polizist: Hm?
+
+<<else>>
+
+<<setMain Speaker>>
+Möchtest Du die Polizeistation verlassen?
+<<setSpawn Player Spawn2>>
+
+-> Ja, ich muss Almina suchen!
+    <<SwitchScene Scene Polizei>>
+    Die Tür geht zu.
+    
+-> Nein, ich möchte mich weiter umsehen.    
+    <<moveY Player 20>>
+    Vielleicht findest du noch was hilfreiches?
+<<endif>>
+===
+title: GoToPoliceTransition
+tags: 
+colorID: 0
+position: 203,345
+---
+<<setSpawn Player Spawn3>>
+
+
+<<if $fromBarToPoliceStation>>
+<<SwitchScene Police_station1 transition_city_police>>
+<<else>>
+
+<<SwitchScene Police_station1 transition_police>>
+
+<<endif>>
+===
+title: policeToLab
+tags: 
+colorID: 0
+position: 521,357
+---
+<<if $visitedPolice>>
+
+<<if $greenLab>>
+
+<<SwitchScene WarpToPolice Labyrinth_gruen>>
+
+<<elseif $orangeLab>>
+
+<<SwitchScene WarpToPolice Labyrinth_orange>>
+
+<<elseif $redLab>>
+
+<<SwitchScene WarpToPolice Labyrinth_rot>>
+
+<<else>>
+<<moveX Player 20>>
+<<setMain Speaker>>
+Hier möchtest du noch nicht entlang laufen.
+<<endif>>
+<<endif>>
+===

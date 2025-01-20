@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4439431681243146976
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4439431681243146978}
+  - component: {fileID: 4439431681243146979}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4439431681243146978
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4439431681243146976}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.9355922, y: -8.00075, z: -0.15420473}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4439431681243146979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4439431681243146976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c8eb588ee62343019eabc7153a7b7b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixerGroup: {fileID: 24300002, guid: 975c5e911ba2a4987a8584c0716fe4bd, type: 2}
+  sounds:
+  - name: WaldMusic
+    clip: {fileID: 8300000, guid: 446a2d384200c4033bad0ceabae71bff, type: 3}
+    volume: 1
+    volumeVariance: 1
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 6452615615453942250, guid: 975c5e911ba2a4987a8584c0716fe4bd, type: 2}
+    source: {fileID: 0}
+  - name: StadtMusic
+    clip: {fileID: 8300000, guid: f792eca86dbc84a3294a415bb22f5d36, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 4068736475811880351, guid: 975c5e911ba2a4987a8584c0716fe4bd, type: 2}
+    source: {fileID: 0}
+  - name: BarMusic
+    clip: {fileID: 8300000, guid: 53e6ae15e9c6b4cc69296f13735146e2, type: 3}
+    volume: 1
+    volumeVariance: 1
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: -6462333488298704136, guid: 975c5e911ba2a4987a8584c0716fe4bd, type: 2}
+    source: {fileID: 0}
+  - name: HausMusic
+    clip: {fileID: 8300000, guid: 6f8aad73acfc748428b415558535a15d, type: 3}
+    volume: 1
+    volumeVariance: 1
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: -4779887275494926237, guid: 975c5e911ba2a4987a8584c0716fe4bd, type: 2}
+    source: {fileID: 0}
+  - name: PolizeiMusic
+    clip: {fileID: 8300000, guid: 98faeea6cb3f44b94bb0a0a6758df5db, type: 3}
+    volume: 1
+    volumeVariance: 1
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: -5847037539278379960, guid: 975c5e911ba2a4987a8584c0716fe4bd, type: 2}
+    source: {fileID: 0}
+  - name: WasserMusic
+    clip: {fileID: 8300000, guid: 635fc631448bd42089cf57fa968a7f91, type: 3}
+    volume: 1
+    volumeVariance: 1
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 1027972899258705307, guid: 975c5e911ba2a4987a8584c0716fe4bd, type: 2}
+    source: {fileID: 0}
+  - name: MazeMusic
+    clip: {fileID: 8300000, guid: 5b69941b3c76b44e5b61c82f558a44e0, type: 3}
+    volume: 1
+    volumeVariance: 1
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 4552412942530089454, guid: 975c5e911ba2a4987a8584c0716fe4bd, type: 2}
+    source: {fileID: 0}
+  - name: run
+    clip: {fileID: 8300000, guid: d5246575f7e41491c916f56c425e5276, type: 3}
+    volume: 0.189
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 6190025952884466695, guid: 975c5e911ba2a4987a8584c0716fe4bd, type: 2}
+    source: {fileID: 0}
+  - name: MenuMusic
+    clip: {fileID: 8300000, guid: 87ef16711996c43ac8ffe10a849e8f8e, type: 3}
+    volume: 1
+    volumeVariance: 1
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: -1539369014392503423, guid: 975c5e911ba2a4987a8584c0716fe4bd, type: 2}
+    source: {fileID: 0}
+  - name: MenuENDEMusic
+    clip: {fileID: 8300000, guid: b59cb3e2952a44618bf3958256564783, type: 3}
+    volume: 1
+    volumeVariance: 1
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: -1539369014392503423, guid: 975c5e911ba2a4987a8584c0716fe4bd, type: 2}
+    source: {fileID: 0}
+  - name: runWood
+    clip: {fileID: 8300000, guid: d532841947c994e4298677e563089b2b, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 6190025952884466695, guid: 975c5e911ba2a4987a8584c0716fe4bd, type: 2}
+    source: {fileID: 0}
+  - name: FightMusic
+    clip: {fileID: 8300000, guid: 976a3f9e9799b4665b99bfa36af7f785, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: -4480350897386386646, guid: 975c5e911ba2a4987a8584c0716fe4bd, type: 2}
+    source: {fileID: 0}
+  - name: openDoor
+    clip: {fileID: 8300000, guid: 60c645abe8f8543858156be94ce9a783, type: 3}
+    volume: 0.203
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 6190025952884466695, guid: 975c5e911ba2a4987a8584c0716fe4bd, type: 2}
+    source: {fileID: 0}
+  - name: outroMusic
+    clip: {fileID: 8300000, guid: 2de432edb195e45f48a824cf5929e870, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: -3723184579943195740, guid: 975c5e911ba2a4987a8584c0716fe4bd, type: 2}
+    source: {fileID: 0}
+  - name: chatSound
+    clip: {fileID: 8300000, guid: 7c95552a3b22b492d8fb355a2d700ae5, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 6190025952884466695, guid: 975c5e911ba2a4987a8584c0716fe4bd, type: 2}
+    source: {fileID: 0}
+  - name: scream1
+    clip: {fileID: 8300000, guid: 61bb4b56c57f94545867347348858365, type: 3}
+    volume: 0.276
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 6190025952884466695, guid: 975c5e911ba2a4987a8584c0716fe4bd, type: 2}
+    source: {fileID: 0}

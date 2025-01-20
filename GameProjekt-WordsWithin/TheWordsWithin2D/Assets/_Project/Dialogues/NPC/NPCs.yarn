@@ -1,0 +1,141 @@
+title: NPC6
+tags: 
+colorID: 0
+position: -693,-75
+---
+<<setMain Speaker>>
+Spieler: Hey, was machst du da?
+<<setEmpty Speaker>>
+Mann: Ich arbeite gerade an meiner Projektarbeit.
+<<setMain Speaker>>
+-> Das klingt interessant
+-> Oh cool!
+<<setEmpty Speaker>>
+Mann: Ja, macht auch echt Spaß! Ich erstelle zusammen mit 2 anderen ein tolles Spiel!
+<<setMain Speaker>>
+Spieler: Das würde ich gerne mal ausprobieren!
+<<setEmpty Speaker>>
+Mann: Erstmal muss es fertig werden!
+===
+title: NPC7
+tags: 
+colorID: 0
+position: -402,5
+---
+<<setEmpty Speaker>>
+Mann: GOTT SEI DANK!
+<<setMain Speaker>>
+Spieler: ...
+<<setEmpty Speaker>>
+Mann: ENDLICH SIND SIE DA!
+<<setMain Speaker>>
+Spieler: Äh?
+<<setEmpty Speaker>>
+Mann: Sind Sie nicht der Pizzabote?
+===
+title: NPC8
+tags: 
+colorID: 0
+position: 189,177
+---
+<<setEmpty Speaker>>
+Mann: Geht es dir gut?
+===
+title: NPC10
+tags: 
+colorID: 0
+position: -285,-227
+---
+<<setEmpty Speaker>>
+Mann: Entschuldigung!
+Mann: Sie suchen hier doch irgendwas!
+Mann: Kann ich Ihnen helfen?
+<<setMain Speaker>>
+-> Ja, gerne.
+    <<setEmpty Speaker>>
+	Mann: Suchen Sie weiter!
+-> Nein.
+    <<setEmpty Speaker>>
+	Mann: Sind Sie sich sicher? Ich habe immer hilfreiche Tipps parat!
+<<setMain Speaker>>
+Spieler: Hm.
+===
+title: NPC12
+tags: 
+colorID: 0
+position: -551,-286
+---
+<<setEmpty Speaker>>
+Mann: Haben Sie vielleicht etwas Kleingeld für mich?
+<<setMain Speaker>>
+-> Ja klar
+    <<setEmpty Speaker>>
+	Mann: Vielen Dank!
+-> Nein!
+    <<setEmpty Speaker>>
+	Mann: Hm! Dann noch einen WUNDERSCHÖNEN Tag.
+	Mann: GENIEßEN SIE IHREN TAG
+	Mann: HOFFENTLICH WERDEN SIE ETWAS SCHÖNES ERLEBEN
+	Mann: TSCHÜÜÜß
+	Diese Person kam dir seltsam vor.
+===
+title: NPC13
+tags: 
+colorID: 0
+position: 79,-118
+---
+<<setEmpty Speaker>>
+Mann: AHH
+<<setMain Speaker>>
+Spieler: ?
+<<setEmpty Speaker>>
+Mann: Ups, du hast mich echt erschreckt!
+===
+title: NPC14
+tags: 
+colorID: 0
+position: 533,-31
+---
+<<setMain Speaker>>
+Spieler: Wo muss ich hin?
+<<setEmpty Speaker>>
+Mann: Äh? Hallo?
+<<setMain Speaker>>
+Spieler: Hi!
+Spieler: Wo muss ich hin?
+<<setEmpty Speaker>>
+Mann: Woher soll ich das wissen?
+===
+title: NPC15
+tags: 
+colorID: 0
+position: 655,257
+---
+<<setMain Speaker>>
+Spieler: Diese Person kenne ich nicht.
+<<setEmpty Speaker>>
+Mann: Redest du mit mir?
+<<setMain Speaker>>
+Spieler: ...
+<<setEmpty Speaker>>
+Mann: Hallo?
+Mann: Kann ich dir helfen?
+===
+title: NPC16
+tags: 
+colorID: 0
+position: 292,-183
+---
+<<setEmpty Speaker>>
+Mann: Was für ein wunderschönes Wetter!
+===
+title: NPC17
+tags: 
+colorID: 0
+position: 828,197
+---
+<<setMain Speaker>>
+Spieler: Hi!
+<<setEmpty Speaker>>
+Mann: Hallo!
+===

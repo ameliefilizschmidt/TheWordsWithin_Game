@@ -1,0 +1,60 @@
+fileFormatVersion: 2
+guid: 96629b0bcadc5d847a09fca774525c70
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Finale-FinalGreen-0
+  - Finale-FinalGreen-1
+  - Finale-FinalGreen-2
+  - Finale-FinalGreen-3
+  - Finale-FinalGreen-4
+  - Finale-FinalGreen-5
+  - Finale-FinalGreen-6
+  - Finale-FinalGreen-7
+  - "Finale-Gr\xFCneEnde-8"
+  - "Finale-Gr\xFCneEnde-9"
+  - "Finale-Gr\xFCneEnde-10"
+  - "Finale-Gr\xFCneEnde-11"
+  - Finale-RotesEnde-12
+  - Finale-RotesEnde-13
+  - Finale-RotesEnde-14
+  - Finale-RotesEnde-15
+  - Finale-RotesEnde-16
+  - Finale-GameRestart-17
+  - Finale-FinalOrange-18
+  - Finale-FinalOrange-19
+  - Finale-FinalOrange-20
+  - Finale-FinalOrange-21
+  - Finale-FinalOrange-22
+  - Finale-FinalOrange-23
+  - Finale-FinalOrange-24
+  - Finale-FinalOrange-25
+  - Finale-FinalOrange-26
+  - Finale-FinalRed-27
+  - Finale-FinalRed-28
+  - Finale-FinalRed-29
+  - Finale-FinalRed-30
+  - Finale-FinalRed-31
+  - Finale-FinalRed-32
+  - Finale-FinalRed-33
+  - Finale-FinalRed-34
+  - Finale-FinalRed-35
+  - Finale-FinalRed-36
+  - Finale-FinalRed-37
+  - Finale-FinalRed-38
+  - Finale-FinalRed-39
+  - Finale-FinalRed-40
+  - Finale-SprechblasenFightFinale-41
+  - Finale-Credits-42
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

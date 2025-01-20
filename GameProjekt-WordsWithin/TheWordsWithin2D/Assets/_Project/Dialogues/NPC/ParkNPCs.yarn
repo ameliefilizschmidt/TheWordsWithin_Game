@@ -1,0 +1,71 @@
+title: NPC4
+tags: 
+colorID: 0
+position: -956,-231
+---
+<<setEmpty Speaker>>
+Mann: Hallo!
+<<setMain Speaker>>
+Spieler: Hi!
+-> Wo finde ich meinen Freund?
+    <<setEmpty Speaker>>
+	Mann: Kenne ich deinen Freund?
+    <<setMain Speaker>>
+	Spieler: Weiß ich doch nicht!
+-> Wie gehts?
+    <<setEmpty Speaker>>
+	Mann: Gut. Danke!
+===
+title: NPC5
+tags: 
+colorID: 0
+position: -955,-13
+---
+<<setEmpty Speaker>>
+Mann: Man! Bei dem Wetter würde ich ja keinen Sport machen...
+Mann: Viel zu anstrengend.
+Mann: Es war schon echt anstrengend hier her zu laufen.
+Mann: Alles so anstrengend.
+Mann: Aber ich schaffe das!
+Mann: Oh! Wer bist du denn?
+<<setMain Speaker>>
+Spieler: Ich suche meinen Freund.
+<<setEmpty Speaker>>
+Mann: Viel Erfolg! Das wäre mir ja viiel zu anstrengend..
+Mann: Bitte lass mich jetzt in Ruhe, ich muss mich dringend ausruhen!
+===
+title: NPC9
+tags: 
+colorID: 0
+position: -735,-18
+---
+<<setMain Speaker>>
+Spieler: Almina wurde entführt!
+<<setEmpty Speaker>>
+Mann: Ok.
+<<setMain Speaker>>
+-> Ich weiß nicht was ich machen soll
+-> Ich muss meinen Freund finden
+<<setEmpty Speaker>>
+Mann: Ok.
+<<setMain Speaker>>
+Spieler: ...
+<<setEmpty Speaker>>
+Mann: ...
+===
+title: NPC11
+tags: 
+colorID: 0
+position: -740,-232
+---
+<<setEmpty Speaker>>
+Freund: Hi!
+<<setMain Speaker>>
+Spieler: Hey! Da bist du ja!
+<<setEmpty Speaker>>
+Freund: ?
+<<setMain Speaker>>
+Spieler: Oh, moment, du bist gar nicht mein Freund!
+<<setEmpty Speaker>>
+Fremder: Ach was!
+===

@@ -1,0 +1,94 @@
+title: TalkToSelf
+tags: 
+colorID: 0
+position: -576,-508
+---
+<<if not $self>>
+<<setMain Speaker>>
+Das ergibt doch alles keinen Sinn..
+<<set $self to true>>
+<<endif>>
+===
+title: TalkToSelf1
+tags: 
+colorID: 0
+position: -572,-378
+---
+<<if not $self1>>
+<<setMain Speaker>>
+Irgendwas stimmt hier nicht.
+<<set $self1 to true>>
+<<endif>>
+===
+title: TalkToSelf2
+tags: 
+colorID: 0
+position: -573,-274
+---
+<<if not $self2>>
+<<setMain Speaker>>
+Warum sagen die Polizisten, dass es niemanden zu retten gibt?
+<<set $self2 to true>>
+<<endif>>
+===
+title: TalkToSelf3
+tags: 
+colorID: 0
+position: -567,-143
+---
+<<if not $self3>>
+<<setMain Speaker>>
+Ich muss doch Almina finden...
+Drehe ich langsam durch?
+...
+<<set $self3 to true>>
+<<endif>>
+===
+title: KampfGegenSelbst
+tags: 
+colorID: 0
+position: -273,-2
+---
+<<setMain Speaker>>
+Ich verstehe mich selbst nicht mehr..
+<<set $self4 to true>>
+<<setSpawn Player spawn2>>
+<<startFight FightHandler Labyrinth_rot GegenSelbstGewonnen GegenSelbstVerloren Self>>
+===
+title: TalkToSelf4
+tags: 
+colorID: 0
+position: -570,-8
+---
+<<if not $self4>>
+<<setMain Speaker>>
+Ich weiß doch was ich gesehen habe!
+Wieso kann mir hier niemand weiter helfen?
+Niemand...
+Kann ich mir selbst noch glauben?
+[[KampfGegenSelbst]]
+
+<<endif>>
+===
+title: GegenSelbstGewonnen
+tags: 
+colorID: 0
+position: -419,256
+---
+<<save Savefile $self4 true>>
+<<setMain Speaker>>
+Ich tue das richtige!
+Da bin ich mir jetzt sicher. Almina braucht meine Hilfe!
+===
+title: GegenSelbstVerloren
+tags: 
+colorID: 0
+position: -117,258
+---
+<<save Savefile $self4 true>>
+<<setMain Speaker>>
+Irgendwas stimmt hier nicht. 
+Ich glaube ich mache einen Fehler.
+Aber ich kann es auch nicht mehr aufhalten.
+Was passiert hier nur?
+===

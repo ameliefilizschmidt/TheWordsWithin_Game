@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: 940038b65e6caf64380e91e5202084ba
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Miscs-Trash-0
+  - Miscs-Untidy-1
+  - Miscs-Inside-2
+  - Miscs-Defect-3
+  - Miscs-Billiard-4
+  - Miscs-leftBeer-5
+  - Miscs-PrisonLuck-6
+  - Miscs-Password-7
+  - Miscs-Searching-8
+  - Miscs-PrisonNPC-9
+  - Miscs-PrisonNPC-10
+  - Miscs-Unidy2-11
+  - Miscs-Unidy3-12
+  - Miscs-Unidy4-13
+  - Miscs-Lake-14
+  - Miscs-Bench-15
+  - Miscs-Crate-16
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

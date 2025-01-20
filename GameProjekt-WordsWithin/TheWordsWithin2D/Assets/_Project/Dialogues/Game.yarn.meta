@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 7cac184dc176932458fa4f737cd07bd5
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Game-StartGame-0
+  - Game-StartGame-1
+  - Game-StartGame-2
+  - Game-StartGame-3
+  - Game-StartGame-4
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

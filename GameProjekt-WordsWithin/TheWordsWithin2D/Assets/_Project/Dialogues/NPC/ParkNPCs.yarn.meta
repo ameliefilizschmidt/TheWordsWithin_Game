@@ -1,0 +1,45 @@
+fileFormatVersion: 2
+guid: a72da9d9114436841bac7a836076bab8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - ParkNPCs-NPC4-0
+  - ParkNPCs-NPC4-1
+  - ParkNPCs-NPC4-2
+  - ParkNPCs-NPC4-3
+  - ParkNPCs-NPC4-4
+  - ParkNPCs-NPC4-5
+  - ParkNPCs-NPC4-6
+  - ParkNPCs-NPC5-7
+  - ParkNPCs-NPC5-8
+  - ParkNPCs-NPC5-9
+  - ParkNPCs-NPC5-10
+  - ParkNPCs-NPC5-11
+  - ParkNPCs-NPC5-12
+  - ParkNPCs-NPC5-13
+  - ParkNPCs-NPC5-14
+  - ParkNPCs-NPC5-15
+  - ParkNPCs-NPC9-16
+  - ParkNPCs-NPC9-17
+  - ParkNPCs-NPC9-18
+  - ParkNPCs-NPC9-19
+  - ParkNPCs-NPC9-20
+  - ParkNPCs-NPC9-21
+  - ParkNPCs-NPC9-22
+  - ParkNPCs-NPC11-23
+  - ParkNPCs-NPC11-24
+  - ParkNPCs-NPC11-25
+  - ParkNPCs-NPC11-26
+  - ParkNPCs-NPC11-27
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

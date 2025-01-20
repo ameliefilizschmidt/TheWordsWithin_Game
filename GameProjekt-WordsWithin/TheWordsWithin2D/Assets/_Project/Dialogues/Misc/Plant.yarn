@@ -1,0 +1,105 @@
+title: Plant1
+tags: 
+colorID: 0
+position: -1018,69
+---
+<<if $plant1watered>>
+<<setMain Speaker>>
+Dieser Pflanze geht es fantastisch!
+<<else>>
+
+
+<<if $water_collected>>
+<<addSlider PowerSlider -3>>
+<<setMain Speaker>>
+Du gießt die Pflanze. Sie sieht gleich viel besser aus!
+Leider ist der Wasserkrug jetzt leer. Vielleicht kannst du ihn irgendwo auffüllen?
+<<set $water_collected to false>>
+<<set $plant1watered to true>>
+
+<<else>>
+
+<<setMain Speaker>>
+Diese Pflanze könnte etwas Wasser gebrauchen...
+
+<<endif>>
+<<endif>>
+===
+title: Plant2
+tags: 
+colorID: 0
+position: -805,71
+---
+<<if $plant2watered>>
+<<setMain Speaker>>
+Dieser Pflanze sieht super aus!
+<<else>>
+
+<<setMain Speaker>>
+<<if $water_collected>>
+<<addSlider PowerSlider -3>>
+Du gießt die Pflanze. Sie sieht gleich viel besser aus!
+Leider ist der Wasserkrug jetzt leer. Vielleicht kannst du ihn irgendwo auffüllen?
+<<set $water_collected to false>>
+<<set $plant2watered to true>>
+
+<<else>>
+
+Diese Pflanze könnte etwas Wasser gebrauchen...
+<<endif>>
+<<endif>>
+===
+title: Plant3
+tags: 
+colorID: 0
+position: -580,78
+---
+<<if $plant3watered>>
+<<setMain Speaker>>
+Das war genug Wasser.
+<<else>>
+
+
+<<if $water_collected>>
+<<addSlider PowerSlider -3>>
+<<setMain Speaker>>
+Du gießt die Pflanze. Sie sieht gleich viel besser aus!
+Leider ist der Wasserkrug jetzt leer. Vielleicht kannst du ihn irgendwo auffüllen?
+<<set $water_collected to false>>
+<<set $plant3watered to true>>
+
+<<else>>
+
+<<setMain Speaker>>
+Diese Pflanze könnte etwas Wasser gebrauchen...
+
+<<endif>>
+<<endif>>
+===
+title: Plant4
+tags: 
+colorID: 0
+position: -362,82
+---
+<<if $plant4watered>>
+<<setMain Speaker>>
+Dieser Pflanze geht es gut.
+<<else>>
+
+
+<<if $water_collected>>
+<<addSlider PowerSlider -3>>
+<<setMain Speaker>>
+Du gießt die Pflanze. Sie sieht gleich viel besser aus!
+Leider ist der Wasserkrug jetzt leer. Vielleicht kannst du ihn irgendwo auffüllen?
+<<set $water_collected to false>>
+<<set $plant4watered to true>>
+
+<<else>>
+
+<<setMain Speaker>>
+Diese Pflanze könnte etwas Wasser gebrauchen...
+
+<<endif>>
+<<endif>>
+===

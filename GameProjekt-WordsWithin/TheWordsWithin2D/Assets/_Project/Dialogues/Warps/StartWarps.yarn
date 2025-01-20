@@ -1,0 +1,59 @@
+title: WarpToBar
+tags: 
+colorID: 0
+position: 136,288
+---
+<<if $fromStartToBar>>
+<<SwitchScene Haus transition_city>>
+Du gehst weiter in Richtung Bar. Jetzt ein schönes Bier!
+
+<<else>>
+<<moveX Player -20>>
+Hier geht es in Richtung Bar. Das ist nicht Teil des Planes.
+<<endif>>
+===
+title: WarpToMom
+tags: 
+colorID: 0
+position: 432,289
+---
+<<if $fromStartToMom>>
+<<SwitchScene Haus transition_mom>>
+Hier geht es weiter in Richtung See. 
+Hoffentlich finde ich Alminas Mutter!
+
+<<else>>
+<<moveX Player -20>>
+Hier geht es in Richtung See. Das ist nicht Teil des Planes.
+<<endif>>
+===
+title: WarpToPark
+tags: 
+colorID: 0
+position: 727,286
+---
+<<if $fromStartToPark>>
+
+<<SwitchScene Haus Park>>
+Hier geht es weiter in Richtung Park. 
+Hoffentlich finde ich meinen Freund!
+
+<<else>>
+<<moveY Player -20>>
+Hier geht es in Richtung Park. Das ist nicht Teil des Planes.
+<<endif>>
+===
+title: transitionToBar
+tags: 
+colorID: 0
+position: 1158,286
+---
+<<SwitchScene Warp Bar_Aussen>>
+===
+title: transitionToMom
+tags: 
+colorID: 0
+position: 1383,286
+---
+<<SwitchScene Warp HausDerMutter>>
+===

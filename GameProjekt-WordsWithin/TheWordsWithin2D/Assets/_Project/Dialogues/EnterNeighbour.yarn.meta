@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: fac1c445ad2e21d4a8a3f4daeea00954
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: de-DE
+  stringIDs:
+  - EnterNeighbour-EnterNeighbour-0
+  - EnterNeighbour-EnterNeighbour-1
+  - EnterNeighbour-EnterNeighbour-2
+  - EnterNeighbour-EnterNeighbour-3
+  - EnterNeighbour-EnterNeighbour-4
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: fac1c445ad2e21d4a8a3f4daeea00954, type: 3}
+  localizations: []
